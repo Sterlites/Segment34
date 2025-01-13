@@ -1,0 +1,2602 @@
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [w_clear,9,27,34]; @symbol_type<0> = [ResourceId,9,38,48]; ]
+        var w_clear as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [w_partly_cloudy,10,27,42]; @symbol_type<0> = [ResourceId,10,46,56]; ]
+        var w_partly_cloudy as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [w_mostly_cloudy,11,27,42]; @symbol_type<0> = [ResourceId,11,46,56]; ]
+        var w_mostly_cloudy as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [w_cloudy,12,27,35]; @symbol_type<0> = [ResourceId,12,39,49]; ]
+        var w_cloudy as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [w_rain,13,27,33]; @symbol_type<0> = [ResourceId,13,37,47]; ]
+        var w_rain as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [w_light_rain,14,27,39]; @symbol_type<0> = [ResourceId,14,43,53]; ]
+        var w_light_rain as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [w_heavy_rain,15,27,39]; @symbol_type<0> = [ResourceId,15,43,53]; ]
+        var w_heavy_rain as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [w_snow,16,27,33]; @symbol_type<0> = [ResourceId,16,37,47]; ]
+        var w_snow as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [w_light_snow,17,27,39]; @symbol_type<0> = [ResourceId,17,43,53]; ]
+        var w_light_snow as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [w_fog,18,27,32]; @symbol_type<0> = [ResourceId,18,36,46]; ]
+        var w_fog as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [w_default,19,27,36]; @symbol_type<0> = [ResourceId,19,40,50]; ]
+        var w_default as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [sun_up_down,20,27,38]; @symbol_type<0> = [ResourceId,20,42,52]; ]
+        var sun_up_down as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,21,27,39]; @symbol_type<0> = [ResourceId,21,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 24; @symbol_moduledef = [Fonts,24,11,16]; ]
+    module Fonts {
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 24; ]
+        <init> {
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [id_segments80,25,27,40]; @symbol_type<0> = [ResourceId,25,44,54]; ]
+        var id_segments80 as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [id_icons,26,27,35]; @symbol_type<0> = [ResourceId,26,39,49]; ]
+        var id_icons as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [id_led,27,27,33]; @symbol_type<0> = [ResourceId,27,37,47]; ]
+        var id_led as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [id_smol,28,27,34]; @symbol_type<0> = [ResourceId,28,38,48]; ]
+        var id_smol as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [id_xsmol,29,27,35]; @symbol_type<0> = [ResourceId,29,39,49]; ]
+        var id_xsmol as ResourceId;
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [id_moon,30,27,34]; @symbol_type<0> = [ResourceId,30,38,48]; ]
+        var id_moon as ResourceId;
+    }
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 33; @symbol_moduledef = [Layouts,33,11,18]; ]
+    module Layouts {
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 33; ]
+        <init> {
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 34; @symbol_functiondef = [WatchFace,34,17,26]; @symbol_param<0> = [dc,34,27,29]; @symbol_param<0>_type<0> = [Graphics,34,33,41]; @symbol_param<0>_type<1> = [Dc,34,42,44]; @symbol_return<0> = [Array,34,49,54]; @symbol_return<1> = [WatchUi,34,55,62]; @symbol_return<2> = [Drawable,34,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start:
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 35 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_moon.1 = local;
+            symbol [ local_Rez_Fonts_id_moon %local_Rez_Fonts_id_moon.1 35 16 39 ];
+            symbol [ WatchUi %tmp.1 35 43 50 ];
+            %tmp.1 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.2 35 51 63 ];
+            %tmp.2 = getv function %tmp.1 :loadResource;
+            symbol [ $ %tmp.3 35 64 65 ];
+            %tmp.3 = getm $;
+            symbol [ Rez %tmp.4 35 66 69 ];
+            %tmp.4 = getv %tmp.3 :Rez;
+            symbol [ Fonts %tmp.5 35 70 75 ];
+            %tmp.5 = getv %tmp.4 :Fonts;
+            symbol [ id_moon %tmp.6 35 76 83 ];
+            %tmp.6 = getv %tmp.5 :id_moon;
+            %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+            %tmp.8 = as %tmp.7 Graphics.FontReference;
+            symbol [ Graphics %tmp.8 35 88 96 ];
+            symbol [ FontReference %tmp.8 35 97 110 ];
+            lputv %local_Rez_Fonts_id_moon.1 %tmp.8;
+            symbol [ local_Rez_Fonts_id_moon %local_Rez_Fonts_id_moon.1 35 16 39 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 36 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_xsmol.2 = local;
+            symbol [ local_Rez_Fonts_id_xsmol %local_Rez_Fonts_id_xsmol.2 36 16 40 ];
+            symbol [ WatchUi %tmp.9 36 44 51 ];
+            %tmp.9 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.10 36 52 64 ];
+            %tmp.10 = getv function %tmp.9 :loadResource;
+            symbol [ $ %tmp.11 36 65 66 ];
+            %tmp.11 = getm $;
+            symbol [ Rez %tmp.12 36 67 70 ];
+            %tmp.12 = getv %tmp.11 :Rez;
+            symbol [ Fonts %tmp.13 36 71 76 ];
+            %tmp.13 = getv %tmp.12 :Fonts;
+            symbol [ id_xsmol %tmp.14 36 77 85 ];
+            %tmp.14 = getv %tmp.13 :id_xsmol;
+            %tmp.15 = invoke %tmp.9 %tmp.10(%tmp.14);
+            %tmp.16 = as %tmp.15 Graphics.FontReference;
+            symbol [ Graphics %tmp.16 36 90 98 ];
+            symbol [ FontReference %tmp.16 36 99 112 ];
+            lputv %local_Rez_Fonts_id_xsmol.2 %tmp.16;
+            symbol [ local_Rez_Fonts_id_xsmol %local_Rez_Fonts_id_xsmol.2 36 16 40 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 37 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_segments80.3 = local;
+            symbol [ local_Rez_Fonts_id_segments80 %local_Rez_Fonts_id_segments80.3 37 16 45 ];
+            symbol [ WatchUi %tmp.17 37 49 56 ];
+            %tmp.17 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.18 37 57 69 ];
+            %tmp.18 = getv function %tmp.17 :loadResource;
+            symbol [ $ %tmp.19 37 70 71 ];
+            %tmp.19 = getm $;
+            symbol [ Rez %tmp.20 37 72 75 ];
+            %tmp.20 = getv %tmp.19 :Rez;
+            symbol [ Fonts %tmp.21 37 76 81 ];
+            %tmp.21 = getv %tmp.20 :Fonts;
+            symbol [ id_segments80 %tmp.22 37 82 95 ];
+            %tmp.22 = getv %tmp.21 :id_segments80;
+            %tmp.23 = invoke %tmp.17 %tmp.18(%tmp.22);
+            %tmp.24 = as %tmp.23 Graphics.FontReference;
+            symbol [ Graphics %tmp.24 37 100 108 ];
+            symbol [ FontReference %tmp.24 37 109 122 ];
+            lputv %local_Rez_Fonts_id_segments80.3 %tmp.24;
+            symbol [ local_Rez_Fonts_id_segments80 %local_Rez_Fonts_id_segments80.3 37 16 45 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 38 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_icons.4 = local;
+            symbol [ local_Rez_Fonts_id_icons %local_Rez_Fonts_id_icons.4 38 16 40 ];
+            symbol [ WatchUi %tmp.25 38 44 51 ];
+            %tmp.25 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.26 38 52 64 ];
+            %tmp.26 = getv function %tmp.25 :loadResource;
+            symbol [ $ %tmp.27 38 65 66 ];
+            %tmp.27 = getm $;
+            symbol [ Rez %tmp.28 38 67 70 ];
+            %tmp.28 = getv %tmp.27 :Rez;
+            symbol [ Fonts %tmp.29 38 71 76 ];
+            %tmp.29 = getv %tmp.28 :Fonts;
+            symbol [ id_icons %tmp.30 38 77 85 ];
+            %tmp.30 = getv %tmp.29 :id_icons;
+            %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.30);
+            %tmp.32 = as %tmp.31 Graphics.FontReference;
+            symbol [ Graphics %tmp.32 38 90 98 ];
+            symbol [ FontReference %tmp.32 38 99 112 ];
+            lputv %local_Rez_Fonts_id_icons.4 %tmp.32;
+            symbol [ local_Rez_Fonts_id_icons %local_Rez_Fonts_id_icons.4 38 16 40 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 39 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_led.5 = local;
+            symbol [ local_Rez_Fonts_id_led %local_Rez_Fonts_id_led.5 39 16 38 ];
+            symbol [ WatchUi %tmp.33 39 42 49 ];
+            %tmp.33 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.34 39 50 62 ];
+            %tmp.34 = getv function %tmp.33 :loadResource;
+            symbol [ $ %tmp.35 39 63 64 ];
+            %tmp.35 = getm $;
+            symbol [ Rez %tmp.36 39 65 68 ];
+            %tmp.36 = getv %tmp.35 :Rez;
+            symbol [ Fonts %tmp.37 39 69 74 ];
+            %tmp.37 = getv %tmp.36 :Fonts;
+            symbol [ id_led %tmp.38 39 75 81 ];
+            %tmp.38 = getv %tmp.37 :id_led;
+            %tmp.39 = invoke %tmp.33 %tmp.34(%tmp.38);
+            %tmp.40 = as %tmp.39 Graphics.FontReference;
+            symbol [ Graphics %tmp.40 39 86 94 ];
+            symbol [ FontReference %tmp.40 39 95 108 ];
+            lputv %local_Rez_Fonts_id_led.5 %tmp.40;
+            symbol [ local_Rez_Fonts_id_led %local_Rez_Fonts_id_led.5 39 16 38 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 40 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %local_Rez_Fonts_id_smol.6 = local;
+            symbol [ local_Rez_Fonts_id_smol %local_Rez_Fonts_id_smol.6 40 16 39 ];
+            symbol [ WatchUi %tmp.41 40 43 50 ];
+            %tmp.41 = getm $.Toybox.WatchUi;
+            symbol [ loadResource %tmp.42 40 51 63 ];
+            %tmp.42 = getv function %tmp.41 :loadResource;
+            symbol [ $ %tmp.43 40 64 65 ];
+            %tmp.43 = getm $;
+            symbol [ Rez %tmp.44 40 66 69 ];
+            %tmp.44 = getv %tmp.43 :Rez;
+            symbol [ Fonts %tmp.45 40 70 75 ];
+            %tmp.45 = getv %tmp.44 :Fonts;
+            symbol [ id_smol %tmp.46 40 76 83 ];
+            %tmp.46 = getv %tmp.45 :id_smol;
+            %tmp.47 = invoke %tmp.41 %tmp.42(%tmp.46);
+            %tmp.48 = as %tmp.47 Graphics.FontReference;
+            symbol [ Graphics %tmp.48 40 88 96 ];
+            symbol [ FontReference %tmp.48 40 97 110 ];
+            lputv %local_Rez_Fonts_id_smol.6 %tmp.48;
+            symbol [ local_Rez_Fonts_id_smol %local_Rez_Fonts_id_smol.6 40 16 39 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 41 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_WeatherCode.7 = local;
+            symbol [ rez_cmp_local_text_WeatherCode %rez_cmp_local_text_WeatherCode.7 41 16 46 ];
+            symbol [ WatchUi %tmp.51 41 53 60 ];
+            %tmp.51 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.52 41 61 65 ];
+            %tmp.52 = getv function ? %tmp.51 :Text;
+            %tmp.53 = newd 6;
+            %tmp.55 = const :identifier;
+            %tmp.56 = "WeatherCode";
+            %tmp.57 = dup %tmp.53;
+            %tmp.58 = aputv %tmp.57 %tmp.55 %tmp.56;
+            %tmp.60 = const :color;
+            %tmp.61 = 0x005555;
+            %tmp.62 = dup %tmp.58;
+            %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
+            %tmp.65 = const :locX;
+            %tmp.66 = 390;
+            %tmp.67 = 0.5;
+            %tmp.68 = mul %tmp.66 %tmp.67;
+            %tmp.69 = dup %tmp.63;
+            %tmp.70 = aputv %tmp.69 %tmp.65 %tmp.68;
+            %tmp.72 = const :locY;
+            %tmp.73 = 10;
+            %tmp.74 = dup %tmp.70;
+            %tmp.75 = aputv %tmp.74 %tmp.72 %tmp.73;
+            %tmp.77 = const :justification;
+            symbol [ Graphics %tmp.78 41 160 168 ];
+            %tmp.78 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.79 41 169 188 ];
+            %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_CENTER;
+            %tmp.80 = dup %tmp.75;
+            %tmp.81 = aputv %tmp.80 %tmp.77 %tmp.79;
+            %tmp.83 = const :font;
+            %tmp.84 = lgetv %local_Rez_Fonts_id_xsmol.2;
+            symbol [ local_Rez_Fonts_id_xsmol %tmp.84 41 197 221 ];
+            %tmp.85 = dup %tmp.81;
+            %tmp.86 = aputv %tmp.85 %tmp.83 %tmp.84;
+            %tmp.49 = newc %tmp.52 (%tmp.86);
+            lputv %rez_cmp_local_text_WeatherCode.7 %tmp.49;
+            symbol [ rez_cmp_local_text_WeatherCode %rez_cmp_local_text_WeatherCode.7 41 16 46 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 43 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_WeatherLabel.8 = local;
+            symbol [ rez_cmp_local_text_WeatherLabel %rez_cmp_local_text_WeatherLabel.8 43 16 47 ];
+            symbol [ WatchUi %tmp.89 43 54 61 ];
+            %tmp.89 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.90 43 62 66 ];
+            %tmp.90 = getv function ? %tmp.89 :Text;
+            %tmp.91 = newd 6;
+            %tmp.93 = const :identifier;
+            %tmp.94 = "WeatherLabel";
+            %tmp.95 = dup %tmp.91;
+            %tmp.96 = aputv %tmp.95 %tmp.93 %tmp.94;
+            %tmp.98 = const :color;
+            %tmp.99 = 0xFFFFFF;
+            %tmp.100 = dup %tmp.96;
+            %tmp.101 = aputv %tmp.100 %tmp.98 %tmp.99;
+            %tmp.103 = const :locX;
+            %tmp.104 = 390;
+            %tmp.105 = 0.5;
+            %tmp.106 = mul %tmp.104 %tmp.105;
+            %tmp.107 = dup %tmp.101;
+            %tmp.108 = aputv %tmp.107 %tmp.103 %tmp.106;
+            %tmp.110 = const :locY;
+            %tmp.111 = 29;
+            %tmp.112 = dup %tmp.108;
+            %tmp.113 = aputv %tmp.112 %tmp.110 %tmp.111;
+            %tmp.115 = const :justification;
+            symbol [ Graphics %tmp.116 43 162 170 ];
+            %tmp.116 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.117 43 171 190 ];
+            %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_CENTER;
+            %tmp.118 = dup %tmp.113;
+            %tmp.119 = aputv %tmp.118 %tmp.115 %tmp.117;
+            %tmp.121 = const :font;
+            %tmp.122 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.122 43 199 222 ];
+            %tmp.123 = dup %tmp.119;
+            %tmp.124 = aputv %tmp.123 %tmp.121 %tmp.122;
+            %tmp.87 = newc %tmp.90 (%tmp.124);
+            lputv %rez_cmp_local_text_WeatherLabel.8 %tmp.87;
+            symbol [ rez_cmp_local_text_WeatherLabel %rez_cmp_local_text_WeatherLabel.8 43 16 47 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 45 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_HRIconR.9 = local;
+            symbol [ rez_cmp_local_text_HRIconR %rez_cmp_local_text_HRIconR.9 45 16 42 ];
+            symbol [ WatchUi %tmp.127 45 49 56 ];
+            %tmp.127 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.128 45 57 61 ];
+            %tmp.128 = getv function ? %tmp.127 :Text;
+            %tmp.129 = newd 6;
+            %tmp.131 = const :identifier;
+            %tmp.132 = "HRIconR";
+            %tmp.133 = dup %tmp.129;
+            %tmp.134 = aputv %tmp.133 %tmp.131 %tmp.132;
+            %tmp.136 = const :color;
+            %tmp.137 = 0xFF0000;
+            %tmp.138 = dup %tmp.134;
+            %tmp.139 = aputv %tmp.138 %tmp.136 %tmp.137;
+            %tmp.141 = const :locX;
+            %tmp.142 = 76;
+            %tmp.143 = dup %tmp.139;
+            %tmp.144 = aputv %tmp.143 %tmp.141 %tmp.142;
+            %tmp.146 = const :locY;
+            %tmp.147 = 32;
+            %tmp.148 = dup %tmp.144;
+            %tmp.149 = aputv %tmp.148 %tmp.146 %tmp.147;
+            %tmp.151 = const :justification;
+            symbol [ Graphics %tmp.152 45 143 151 ];
+            %tmp.152 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.153 45 152 169 ];
+            %tmp.153 = getv %tmp.152 :TEXT_JUSTIFY_LEFT;
+            %tmp.154 = dup %tmp.149;
+            %tmp.155 = aputv %tmp.154 %tmp.151 %tmp.153;
+            %tmp.157 = const :font;
+            %tmp.158 = lgetv %local_Rez_Fonts_id_icons.4;
+            symbol [ local_Rez_Fonts_id_icons %tmp.158 45 178 202 ];
+            %tmp.159 = dup %tmp.155;
+            %tmp.160 = aputv %tmp.159 %tmp.157 %tmp.158;
+            %tmp.125 = newc %tmp.128 (%tmp.160);
+            lputv %rez_cmp_local_text_HRIconR.9 %tmp.125;
+            symbol [ rez_cmp_local_text_HRIconR %rez_cmp_local_text_HRIconR.9 45 16 42 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 47 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_HRIconW.10 = local;
+            symbol [ rez_cmp_local_text_HRIconW %rez_cmp_local_text_HRIconW.10 47 16 42 ];
+            symbol [ WatchUi %tmp.163 47 49 56 ];
+            %tmp.163 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.164 47 57 61 ];
+            %tmp.164 = getv function ? %tmp.163 :Text;
+            %tmp.165 = newd 6;
+            %tmp.167 = const :identifier;
+            %tmp.168 = "HRIconW";
+            %tmp.169 = dup %tmp.165;
+            %tmp.170 = aputv %tmp.169 %tmp.167 %tmp.168;
+            %tmp.172 = const :color;
+            %tmp.173 = 0x333333;
+            %tmp.174 = dup %tmp.170;
+            %tmp.175 = aputv %tmp.174 %tmp.172 %tmp.173;
+            %tmp.177 = const :locX;
+            %tmp.178 = 76;
+            %tmp.179 = dup %tmp.175;
+            %tmp.180 = aputv %tmp.179 %tmp.177 %tmp.178;
+            %tmp.182 = const :locY;
+            %tmp.183 = 32;
+            %tmp.184 = dup %tmp.180;
+            %tmp.185 = aputv %tmp.184 %tmp.182 %tmp.183;
+            %tmp.187 = const :justification;
+            symbol [ Graphics %tmp.188 47 143 151 ];
+            %tmp.188 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.189 47 152 169 ];
+            %tmp.189 = getv %tmp.188 :TEXT_JUSTIFY_LEFT;
+            %tmp.190 = dup %tmp.185;
+            %tmp.191 = aputv %tmp.190 %tmp.187 %tmp.189;
+            %tmp.193 = const :font;
+            %tmp.194 = lgetv %local_Rez_Fonts_id_icons.4;
+            symbol [ local_Rez_Fonts_id_icons %tmp.194 47 178 202 ];
+            %tmp.195 = dup %tmp.191;
+            %tmp.196 = aputv %tmp.195 %tmp.193 %tmp.194;
+            %tmp.161 = newc %tmp.164 (%tmp.196);
+            lputv %rez_cmp_local_text_HRIconW.10 %tmp.161;
+            symbol [ rez_cmp_local_text_HRIconW %rez_cmp_local_text_HRIconW.10 47 16 42 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 49 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_WindIcon.11 = local;
+            symbol [ rez_cmp_local_text_WindIcon %rez_cmp_local_text_WindIcon.11 49 16 43 ];
+            symbol [ WatchUi %tmp.199 49 50 57 ];
+            %tmp.199 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.200 49 58 62 ];
+            %tmp.200 = getv function ? %tmp.199 :Text;
+            %tmp.201 = newd 6;
+            %tmp.203 = const :identifier;
+            %tmp.204 = "WindIcon";
+            %tmp.205 = dup %tmp.201;
+            %tmp.206 = aputv %tmp.205 %tmp.203 %tmp.204;
+            %tmp.208 = const :color;
+            %tmp.209 = 0xFFFFFF;
+            %tmp.210 = dup %tmp.206;
+            %tmp.211 = aputv %tmp.210 %tmp.208 %tmp.209;
+            %tmp.213 = const :locX;
+            %tmp.214 = 177;
+            %tmp.215 = dup %tmp.211;
+            %tmp.216 = aputv %tmp.215 %tmp.213 %tmp.214;
+            %tmp.218 = const :locY;
+            %tmp.219 = 32;
+            %tmp.220 = dup %tmp.216;
+            %tmp.221 = aputv %tmp.220 %tmp.218 %tmp.219;
+            %tmp.223 = const :justification;
+            symbol [ Graphics %tmp.224 49 146 154 ];
+            %tmp.224 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.225 49 155 174 ];
+            %tmp.225 = getv %tmp.224 :TEXT_JUSTIFY_CENTER;
+            %tmp.226 = dup %tmp.221;
+            %tmp.227 = aputv %tmp.226 %tmp.223 %tmp.225;
+            %tmp.229 = const :font;
+            %tmp.230 = lgetv %local_Rez_Fonts_id_icons.4;
+            symbol [ local_Rez_Fonts_id_icons %tmp.230 49 183 207 ];
+            %tmp.231 = dup %tmp.227;
+            %tmp.232 = aputv %tmp.231 %tmp.229 %tmp.230;
+            %tmp.197 = newc %tmp.200 (%tmp.232);
+            lputv %rez_cmp_local_text_WindIcon.11 %tmp.197;
+            symbol [ rez_cmp_local_text_WindIcon %rez_cmp_local_text_WindIcon.11 49 16 43 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 51 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_MoonLabel.12 = local;
+            symbol [ rez_cmp_local_text_MoonLabel %rez_cmp_local_text_MoonLabel.12 51 16 44 ];
+            symbol [ WatchUi %tmp.235 51 51 58 ];
+            %tmp.235 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.236 51 59 63 ];
+            %tmp.236 = getv function ? %tmp.235 :Text;
+            %tmp.237 = newd 6;
+            %tmp.239 = const :identifier;
+            %tmp.240 = "MoonLabel";
+            %tmp.241 = dup %tmp.237;
+            %tmp.242 = aputv %tmp.241 %tmp.239 %tmp.240;
+            %tmp.244 = const :color;
+            %tmp.245 = 0xFFFFFF;
+            %tmp.246 = dup %tmp.242;
+            %tmp.247 = aputv %tmp.246 %tmp.244 %tmp.245;
+            %tmp.249 = const :locX;
+            %tmp.250 = 27;
+            %tmp.251 = dup %tmp.247;
+            %tmp.252 = aputv %tmp.251 %tmp.249 %tmp.250;
+            %tmp.254 = const :locY;
+            %tmp.255 = 60;
+            %tmp.256 = dup %tmp.252;
+            %tmp.257 = aputv %tmp.256 %tmp.254 %tmp.255;
+            %tmp.259 = const :justification;
+            symbol [ Graphics %tmp.260 51 147 155 ];
+            %tmp.260 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.261 51 156 173 ];
+            %tmp.261 = getv %tmp.260 :TEXT_JUSTIFY_LEFT;
+            %tmp.262 = dup %tmp.257;
+            %tmp.263 = aputv %tmp.262 %tmp.259 %tmp.261;
+            %tmp.265 = const :font;
+            %tmp.266 = lgetv %local_Rez_Fonts_id_moon.1;
+            symbol [ local_Rez_Fonts_id_moon %tmp.266 51 182 205 ];
+            %tmp.267 = dup %tmp.263;
+            %tmp.268 = aputv %tmp.267 %tmp.265 %tmp.266;
+            %tmp.233 = newc %tmp.236 (%tmp.268);
+            lputv %rez_cmp_local_text_MoonLabel.12 %tmp.233;
+            symbol [ rez_cmp_local_text_MoonLabel %rez_cmp_local_text_MoonLabel.12 51 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 53 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_HRLabel.13 = local;
+            symbol [ rez_cmp_local_text_HRLabel %rez_cmp_local_text_HRLabel.13 53 16 42 ];
+            symbol [ WatchUi %tmp.271 53 49 56 ];
+            %tmp.271 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.272 53 57 61 ];
+            %tmp.272 = getv function ? %tmp.271 :Text;
+            %tmp.273 = newd 6;
+            %tmp.275 = const :identifier;
+            %tmp.276 = "HRLabel";
+            %tmp.277 = dup %tmp.273;
+            %tmp.278 = aputv %tmp.277 %tmp.275 %tmp.276;
+            %tmp.280 = const :color;
+            %tmp.281 = 0xFFFFFF;
+            %tmp.282 = dup %tmp.278;
+            %tmp.283 = aputv %tmp.282 %tmp.280 %tmp.281;
+            %tmp.285 = const :locX;
+            %tmp.286 = 86;
+            %tmp.287 = dup %tmp.283;
+            %tmp.288 = aputv %tmp.287 %tmp.285 %tmp.286;
+            %tmp.290 = const :locY;
+            %tmp.291 = 60;
+            %tmp.292 = dup %tmp.288;
+            %tmp.293 = aputv %tmp.292 %tmp.290 %tmp.291;
+            %tmp.295 = const :justification;
+            symbol [ Graphics %tmp.296 53 143 151 ];
+            %tmp.296 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.297 53 152 171 ];
+            %tmp.297 = getv %tmp.296 :TEXT_JUSTIFY_CENTER;
+            %tmp.298 = dup %tmp.293;
+            %tmp.299 = aputv %tmp.298 %tmp.295 %tmp.297;
+            %tmp.301 = const :font;
+            %tmp.302 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.302 53 180 202 ];
+            %tmp.303 = dup %tmp.299;
+            %tmp.304 = aputv %tmp.303 %tmp.301 %tmp.302;
+            %tmp.269 = newc %tmp.272 (%tmp.304);
+            lputv %rez_cmp_local_text_HRLabel.13 %tmp.269;
+            symbol [ rez_cmp_local_text_HRLabel %rez_cmp_local_text_HRLabel.13 53 16 42 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 55 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TempLabel.14 = local;
+            symbol [ rez_cmp_local_text_TempLabel %rez_cmp_local_text_TempLabel.14 55 16 44 ];
+            symbol [ WatchUi %tmp.307 55 51 58 ];
+            %tmp.307 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.308 55 59 63 ];
+            %tmp.308 = getv function ? %tmp.307 :Text;
+            %tmp.309 = newd 6;
+            %tmp.311 = const :identifier;
+            %tmp.312 = "TempLabel";
+            %tmp.313 = dup %tmp.309;
+            %tmp.314 = aputv %tmp.313 %tmp.311 %tmp.312;
+            %tmp.316 = const :color;
+            %tmp.317 = 0xFFFFFF;
+            %tmp.318 = dup %tmp.314;
+            %tmp.319 = aputv %tmp.318 %tmp.316 %tmp.317;
+            %tmp.321 = const :locX;
+            %tmp.322 = 132;
+            %tmp.323 = dup %tmp.319;
+            %tmp.324 = aputv %tmp.323 %tmp.321 %tmp.322;
+            %tmp.326 = const :locY;
+            %tmp.327 = 60;
+            %tmp.328 = dup %tmp.324;
+            %tmp.329 = aputv %tmp.328 %tmp.326 %tmp.327;
+            %tmp.331 = const :justification;
+            symbol [ Graphics %tmp.332 55 148 156 ];
+            %tmp.332 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.333 55 157 176 ];
+            %tmp.333 = getv %tmp.332 :TEXT_JUSTIFY_CENTER;
+            %tmp.334 = dup %tmp.329;
+            %tmp.335 = aputv %tmp.334 %tmp.331 %tmp.333;
+            %tmp.337 = const :font;
+            %tmp.338 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.338 55 185 207 ];
+            %tmp.339 = dup %tmp.335;
+            %tmp.340 = aputv %tmp.339 %tmp.337 %tmp.338;
+            %tmp.305 = newc %tmp.308 (%tmp.340);
+            lputv %rez_cmp_local_text_TempLabel.14 %tmp.305;
+            symbol [ rez_cmp_local_text_TempLabel %rez_cmp_local_text_TempLabel.14 55 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 57 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_WindLabel.15 = local;
+            symbol [ rez_cmp_local_text_WindLabel %rez_cmp_local_text_WindLabel.15 57 16 44 ];
+            symbol [ WatchUi %tmp.343 57 51 58 ];
+            %tmp.343 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.344 57 59 63 ];
+            %tmp.344 = getv function ? %tmp.343 :Text;
+            %tmp.345 = newd 6;
+            %tmp.347 = const :identifier;
+            %tmp.348 = "WindLabel";
+            %tmp.349 = dup %tmp.345;
+            %tmp.350 = aputv %tmp.349 %tmp.347 %tmp.348;
+            %tmp.352 = const :color;
+            %tmp.353 = 0xFFFFFF;
+            %tmp.354 = dup %tmp.350;
+            %tmp.355 = aputv %tmp.354 %tmp.352 %tmp.353;
+            %tmp.357 = const :locX;
+            %tmp.358 = 178;
+            %tmp.359 = dup %tmp.355;
+            %tmp.360 = aputv %tmp.359 %tmp.357 %tmp.358;
+            %tmp.362 = const :locY;
+            %tmp.363 = 60;
+            %tmp.364 = dup %tmp.360;
+            %tmp.365 = aputv %tmp.364 %tmp.362 %tmp.363;
+            %tmp.367 = const :justification;
+            symbol [ Graphics %tmp.368 57 148 156 ];
+            %tmp.368 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.369 57 157 176 ];
+            %tmp.369 = getv %tmp.368 :TEXT_JUSTIFY_CENTER;
+            %tmp.370 = dup %tmp.365;
+            %tmp.371 = aputv %tmp.370 %tmp.367 %tmp.369;
+            %tmp.373 = const :font;
+            %tmp.374 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.374 57 185 207 ];
+            %tmp.375 = dup %tmp.371;
+            %tmp.376 = aputv %tmp.375 %tmp.373 %tmp.374;
+            %tmp.341 = newc %tmp.344 (%tmp.376);
+            lputv %rez_cmp_local_text_WindLabel.15 %tmp.341;
+            symbol [ rez_cmp_local_text_WindLabel %rez_cmp_local_text_WindLabel.15 57 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 59 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_SunUpLabel.16 = local;
+            symbol [ rez_cmp_local_text_SunUpLabel %rez_cmp_local_text_SunUpLabel.16 59 16 45 ];
+            symbol [ WatchUi %tmp.379 59 52 59 ];
+            %tmp.379 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.380 59 60 64 ];
+            %tmp.380 = getv function ? %tmp.379 :Text;
+            %tmp.381 = newd 6;
+            %tmp.383 = const :identifier;
+            %tmp.384 = "SunUpLabel";
+            %tmp.385 = dup %tmp.381;
+            %tmp.386 = aputv %tmp.385 %tmp.383 %tmp.384;
+            %tmp.388 = const :color;
+            %tmp.389 = 0xFFFFFF;
+            %tmp.390 = dup %tmp.386;
+            %tmp.391 = aputv %tmp.390 %tmp.388 %tmp.389;
+            %tmp.393 = const :locX;
+            %tmp.394 = 228;
+            %tmp.395 = dup %tmp.391;
+            %tmp.396 = aputv %tmp.395 %tmp.393 %tmp.394;
+            %tmp.398 = const :locY;
+            %tmp.399 = 63;
+            %tmp.400 = dup %tmp.396;
+            %tmp.401 = aputv %tmp.400 %tmp.398 %tmp.399;
+            %tmp.403 = const :justification;
+            symbol [ Graphics %tmp.404 59 150 158 ];
+            %tmp.404 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.405 59 159 176 ];
+            %tmp.405 = getv %tmp.404 :TEXT_JUSTIFY_LEFT;
+            %tmp.406 = dup %tmp.401;
+            %tmp.407 = aputv %tmp.406 %tmp.403 %tmp.405;
+            %tmp.409 = const :font;
+            %tmp.410 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.410 59 185 208 ];
+            %tmp.411 = dup %tmp.407;
+            %tmp.412 = aputv %tmp.411 %tmp.409 %tmp.410;
+            %tmp.377 = newc %tmp.380 (%tmp.412);
+            lputv %rez_cmp_local_text_SunUpLabel.16 %tmp.377;
+            symbol [ rez_cmp_local_text_SunUpLabel %rez_cmp_local_text_SunUpLabel.16 59 16 45 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 61 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_SunDownLabel.17 = local;
+            symbol [ rez_cmp_local_text_SunDownLabel %rez_cmp_local_text_SunDownLabel.17 61 16 47 ];
+            symbol [ WatchUi %tmp.415 61 54 61 ];
+            %tmp.415 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.416 61 62 66 ];
+            %tmp.416 = getv function ? %tmp.415 :Text;
+            %tmp.417 = newd 6;
+            %tmp.419 = const :identifier;
+            %tmp.420 = "SunDownLabel";
+            %tmp.421 = dup %tmp.417;
+            %tmp.422 = aputv %tmp.421 %tmp.419 %tmp.420;
+            %tmp.424 = const :color;
+            %tmp.425 = 0xFFFFFF;
+            %tmp.426 = dup %tmp.422;
+            %tmp.427 = aputv %tmp.426 %tmp.424 %tmp.425;
+            %tmp.429 = const :locX;
+            %tmp.430 = 214;
+            %tmp.431 = dup %tmp.427;
+            %tmp.432 = aputv %tmp.431 %tmp.429 %tmp.430;
+            %tmp.434 = const :locY;
+            %tmp.435 = 73;
+            %tmp.436 = dup %tmp.432;
+            %tmp.437 = aputv %tmp.436 %tmp.434 %tmp.435;
+            %tmp.439 = const :justification;
+            symbol [ Graphics %tmp.440 61 154 162 ];
+            %tmp.440 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.441 61 163 180 ];
+            %tmp.441 = getv %tmp.440 :TEXT_JUSTIFY_LEFT;
+            %tmp.442 = dup %tmp.437;
+            %tmp.443 = aputv %tmp.442 %tmp.439 %tmp.441;
+            %tmp.445 = const :font;
+            %tmp.446 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.446 61 189 212 ];
+            %tmp.447 = dup %tmp.443;
+            %tmp.448 = aputv %tmp.447 %tmp.445 %tmp.446;
+            %tmp.413 = newc %tmp.416 (%tmp.448);
+            lputv %rez_cmp_local_text_SunDownLabel.17 %tmp.413;
+            symbol [ rez_cmp_local_text_SunDownLabel %rez_cmp_local_text_SunDownLabel.17 61 16 47 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 63 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TimeBg.18 = local;
+            symbol [ rez_cmp_local_text_TimeBg %rez_cmp_local_text_TimeBg.18 63 16 41 ];
+            symbol [ WatchUi %tmp.451 63 48 55 ];
+            %tmp.451 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.452 63 56 60 ];
+            %tmp.452 = getv function ? %tmp.451 :Text;
+            %tmp.453 = newd 6;
+            %tmp.455 = const :identifier;
+            %tmp.456 = "TimeBg";
+            %tmp.457 = dup %tmp.453;
+            %tmp.458 = aputv %tmp.457 %tmp.455 %tmp.456;
+            %tmp.460 = const :color;
+            %tmp.461 = 0x005555;
+            %tmp.462 = dup %tmp.458;
+            %tmp.463 = aputv %tmp.462 %tmp.460 %tmp.461;
+            %tmp.465 = const :locX;
+            %tmp.466 = 18;
+            %tmp.467 = dup %tmp.463;
+            %tmp.468 = aputv %tmp.467 %tmp.465 %tmp.466;
+            %tmp.470 = const :locY;
+            %tmp.471 = 90;
+            %tmp.472 = dup %tmp.468;
+            %tmp.473 = aputv %tmp.472 %tmp.470 %tmp.471;
+            %tmp.475 = const :justification;
+            symbol [ Graphics %tmp.476 63 141 149 ];
+            %tmp.476 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.477 63 150 167 ];
+            %tmp.477 = getv %tmp.476 :TEXT_JUSTIFY_LEFT;
+            %tmp.478 = dup %tmp.473;
+            %tmp.479 = aputv %tmp.478 %tmp.475 %tmp.477;
+            %tmp.481 = const :font;
+            %tmp.482 = lgetv %local_Rez_Fonts_id_segments80.3;
+            symbol [ local_Rez_Fonts_id_segments80 %tmp.482 63 176 205 ];
+            %tmp.483 = dup %tmp.479;
+            %tmp.484 = aputv %tmp.483 %tmp.481 %tmp.482;
+            %tmp.449 = newc %tmp.452 (%tmp.484);
+            lputv %rez_cmp_local_text_TimeBg.18 %tmp.449;
+            symbol [ rez_cmp_local_text_TimeBg %rez_cmp_local_text_TimeBg.18 63 16 41 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 65 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.19 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.19 65 16 44 ];
+            symbol [ WatchUi %tmp.487 65 51 58 ];
+            %tmp.487 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.488 65 59 63 ];
+            %tmp.488 = getv function ? %tmp.487 :Text;
+            %tmp.489 = newd 6;
+            %tmp.491 = const :identifier;
+            %tmp.492 = "TimeLabel";
+            %tmp.493 = dup %tmp.489;
+            %tmp.494 = aputv %tmp.493 %tmp.491 %tmp.492;
+            %tmp.496 = const :color;
+            %tmp.497 = 0xFFFF00;
+            %tmp.498 = dup %tmp.494;
+            %tmp.499 = aputv %tmp.498 %tmp.496 %tmp.497;
+            %tmp.501 = const :locX;
+            %tmp.502 = 18;
+            %tmp.503 = dup %tmp.499;
+            %tmp.504 = aputv %tmp.503 %tmp.501 %tmp.502;
+            %tmp.506 = const :locY;
+            %tmp.507 = 90;
+            %tmp.508 = dup %tmp.504;
+            %tmp.509 = aputv %tmp.508 %tmp.506 %tmp.507;
+            %tmp.511 = const :justification;
+            symbol [ Graphics %tmp.512 65 147 155 ];
+            %tmp.512 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.513 65 156 173 ];
+            %tmp.513 = getv %tmp.512 :TEXT_JUSTIFY_LEFT;
+            %tmp.514 = dup %tmp.509;
+            %tmp.515 = aputv %tmp.514 %tmp.511 %tmp.513;
+            %tmp.517 = const :font;
+            %tmp.518 = lgetv %local_Rez_Fonts_id_segments80.3;
+            symbol [ local_Rez_Fonts_id_segments80 %tmp.518 65 182 211 ];
+            %tmp.519 = dup %tmp.515;
+            %tmp.520 = aputv %tmp.519 %tmp.517 %tmp.518;
+            %tmp.485 = newc %tmp.488 (%tmp.520);
+            lputv %rez_cmp_local_text_TimeLabel.19 %tmp.485;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.19 65 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 67 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_DateLabel.20 = local;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.20 67 16 44 ];
+            symbol [ WatchUi %tmp.523 67 51 58 ];
+            %tmp.523 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.524 67 59 63 ];
+            %tmp.524 = getv function ? %tmp.523 :Text;
+            %tmp.525 = newd 6;
+            %tmp.527 = const :identifier;
+            %tmp.528 = "DateLabel";
+            %tmp.529 = dup %tmp.525;
+            %tmp.530 = aputv %tmp.529 %tmp.527 %tmp.528;
+            %tmp.532 = const :color;
+            %tmp.533 = 0xFFFFAA;
+            %tmp.534 = dup %tmp.530;
+            %tmp.535 = aputv %tmp.534 %tmp.532 %tmp.533;
+            %tmp.537 = const :locX;
+            %tmp.538 = 18;
+            %tmp.539 = dup %tmp.535;
+            %tmp.540 = aputv %tmp.539 %tmp.537 %tmp.538;
+            %tmp.542 = const :locY;
+            %tmp.543 = 175;
+            %tmp.544 = dup %tmp.540;
+            %tmp.545 = aputv %tmp.544 %tmp.542 %tmp.543;
+            %tmp.547 = const :justification;
+            symbol [ Graphics %tmp.548 67 148 156 ];
+            %tmp.548 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.549 67 157 174 ];
+            %tmp.549 = getv %tmp.548 :TEXT_JUSTIFY_LEFT;
+            %tmp.550 = dup %tmp.545;
+            %tmp.551 = aputv %tmp.550 %tmp.547 %tmp.549;
+            %tmp.553 = const :font;
+            %tmp.554 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.554 67 183 206 ];
+            %tmp.555 = dup %tmp.551;
+            %tmp.556 = aputv %tmp.555 %tmp.553 %tmp.554;
+            %tmp.521 = newc %tmp.524 (%tmp.556);
+            lputv %rez_cmp_local_text_DateLabel.20 %tmp.521;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.20 67 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 69 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_NotifLabel.21 = local;
+            symbol [ rez_cmp_local_text_NotifLabel %rez_cmp_local_text_NotifLabel.21 69 16 45 ];
+            symbol [ WatchUi %tmp.559 69 52 59 ];
+            %tmp.559 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.560 69 60 64 ];
+            %tmp.560 = getv function ? %tmp.559 :Text;
+            %tmp.561 = newd 6;
+            %tmp.563 = const :identifier;
+            %tmp.564 = "NotifLabel";
+            %tmp.565 = dup %tmp.561;
+            %tmp.566 = aputv %tmp.565 %tmp.563 %tmp.564;
+            %tmp.568 = const :color;
+            %tmp.569 = 0x00AAFF;
+            %tmp.570 = dup %tmp.566;
+            %tmp.571 = aputv %tmp.570 %tmp.568 %tmp.569;
+            %tmp.573 = const :locX;
+            %tmp.574 = 243;
+            %tmp.575 = dup %tmp.571;
+            %tmp.576 = aputv %tmp.575 %tmp.573 %tmp.574;
+            %tmp.578 = const :locY;
+            %tmp.579 = 175;
+            %tmp.580 = dup %tmp.576;
+            %tmp.581 = aputv %tmp.580 %tmp.578 %tmp.579;
+            %tmp.583 = const :justification;
+            symbol [ Graphics %tmp.584 69 151 159 ];
+            %tmp.584 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.585 69 160 178 ];
+            %tmp.585 = getv %tmp.584 :TEXT_JUSTIFY_RIGHT;
+            %tmp.586 = dup %tmp.581;
+            %tmp.587 = aputv %tmp.586 %tmp.583 %tmp.585;
+            %tmp.589 = const :font;
+            %tmp.590 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.590 69 187 210 ];
+            %tmp.591 = dup %tmp.587;
+            %tmp.592 = aputv %tmp.591 %tmp.589 %tmp.590;
+            %tmp.557 = newc %tmp.560 (%tmp.592);
+            lputv %rez_cmp_local_text_NotifLabel.21 %tmp.557;
+            symbol [ rez_cmp_local_text_NotifLabel %rez_cmp_local_text_NotifLabel.21 69 16 45 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 71 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TTRLabel.22 = local;
+            symbol [ rez_cmp_local_text_TTRLabel %rez_cmp_local_text_TTRLabel.22 71 16 43 ];
+            symbol [ WatchUi %tmp.595 71 50 57 ];
+            %tmp.595 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.596 71 58 62 ];
+            %tmp.596 = getv function ? %tmp.595 :Text;
+            %tmp.597 = newd 6;
+            %tmp.599 = const :identifier;
+            %tmp.600 = "TTRLabel";
+            %tmp.601 = dup %tmp.597;
+            %tmp.602 = aputv %tmp.601 %tmp.599 %tmp.600;
+            %tmp.604 = const :color;
+            %tmp.605 = 0xFFFFFF;
+            %tmp.606 = dup %tmp.602;
+            %tmp.607 = aputv %tmp.606 %tmp.604 %tmp.605;
+            %tmp.609 = const :locX;
+            %tmp.610 = 81;
+            %tmp.611 = dup %tmp.607;
+            %tmp.612 = aputv %tmp.611 %tmp.609 %tmp.610;
+            %tmp.614 = const :locY;
+            %tmp.615 = 192;
+            %tmp.616 = dup %tmp.612;
+            %tmp.617 = aputv %tmp.616 %tmp.614 %tmp.615;
+            %tmp.619 = const :justification;
+            symbol [ Graphics %tmp.620 71 146 154 ];
+            %tmp.620 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.621 71 155 173 ];
+            %tmp.621 = getv %tmp.620 :TEXT_JUSTIFY_RIGHT;
+            %tmp.622 = dup %tmp.617;
+            %tmp.623 = aputv %tmp.622 %tmp.619 %tmp.621;
+            %tmp.625 = const :font;
+            %tmp.626 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.626 71 182 204 ];
+            %tmp.627 = dup %tmp.623;
+            %tmp.628 = aputv %tmp.627 %tmp.625 %tmp.626;
+            %tmp.593 = newc %tmp.596 (%tmp.628);
+            lputv %rez_cmp_local_text_TTRLabel.22 %tmp.593;
+            symbol [ rez_cmp_local_text_TTRLabel %rez_cmp_local_text_TTRLabel.22 71 16 43 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 73 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TTRDesc.23 = local;
+            symbol [ rez_cmp_local_text_TTRDesc %rez_cmp_local_text_TTRDesc.23 73 16 42 ];
+            symbol [ WatchUi %tmp.631 73 49 56 ];
+            %tmp.631 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.632 73 57 61 ];
+            %tmp.632 = getv function ? %tmp.631 :Text;
+            %tmp.633 = newd 6;
+            %tmp.635 = const :identifier;
+            %tmp.636 = "TTRDesc";
+            %tmp.637 = dup %tmp.633;
+            %tmp.638 = aputv %tmp.637 %tmp.635 %tmp.636;
+            %tmp.640 = const :color;
+            %tmp.641 = 0x005555;
+            %tmp.642 = dup %tmp.638;
+            %tmp.643 = aputv %tmp.642 %tmp.640 %tmp.641;
+            %tmp.645 = const :locX;
+            %tmp.646 = 84;
+            %tmp.647 = dup %tmp.643;
+            %tmp.648 = aputv %tmp.647 %tmp.645 %tmp.646;
+            %tmp.650 = const :locY;
+            %tmp.651 = 197;
+            %tmp.652 = dup %tmp.648;
+            %tmp.653 = aputv %tmp.652 %tmp.650 %tmp.651;
+            %tmp.655 = const :justification;
+            symbol [ Graphics %tmp.656 73 144 152 ];
+            %tmp.656 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.657 73 153 170 ];
+            %tmp.657 = getv %tmp.656 :TEXT_JUSTIFY_LEFT;
+            %tmp.658 = dup %tmp.653;
+            %tmp.659 = aputv %tmp.658 %tmp.655 %tmp.657;
+            %tmp.661 = const :font;
+            %tmp.662 = lgetv %local_Rez_Fonts_id_xsmol.2;
+            symbol [ local_Rez_Fonts_id_xsmol %tmp.662 73 179 203 ];
+            %tmp.663 = dup %tmp.659;
+            %tmp.664 = aputv %tmp.663 %tmp.661 %tmp.662;
+            %tmp.629 = newc %tmp.632 (%tmp.664);
+            lputv %rez_cmp_local_text_TTRDesc.23 %tmp.629;
+            symbol [ rez_cmp_local_text_TTRDesc %rez_cmp_local_text_TTRDesc.23 73 16 42 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 75 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_TTRReady.24 = local;
+            symbol [ rez_cmp_local_text_TTRReady %rez_cmp_local_text_TTRReady.24 75 16 43 ];
+            symbol [ WatchUi %tmp.667 75 50 57 ];
+            %tmp.667 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.668 75 58 62 ];
+            %tmp.668 = getv function ? %tmp.667 :Text;
+            %tmp.669 = newd 6;
+            %tmp.671 = const :identifier;
+            %tmp.672 = "TTRReady";
+            %tmp.673 = dup %tmp.669;
+            %tmp.674 = aputv %tmp.673 %tmp.671 %tmp.672;
+            %tmp.676 = const :color;
+            %tmp.677 = 0x55AAAA;
+            %tmp.678 = dup %tmp.674;
+            %tmp.679 = aputv %tmp.678 %tmp.676 %tmp.677;
+            %tmp.681 = const :locX;
+            %tmp.682 = 80;
+            %tmp.683 = dup %tmp.679;
+            %tmp.684 = aputv %tmp.683 %tmp.681 %tmp.682;
+            %tmp.686 = const :locY;
+            %tmp.687 = 192;
+            %tmp.688 = dup %tmp.684;
+            %tmp.689 = aputv %tmp.688 %tmp.686 %tmp.687;
+            %tmp.691 = const :justification;
+            symbol [ Graphics %tmp.692 75 146 154 ];
+            %tmp.692 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.693 75 155 174 ];
+            %tmp.693 = getv %tmp.692 :TEXT_JUSTIFY_CENTER;
+            %tmp.694 = dup %tmp.689;
+            %tmp.695 = aputv %tmp.694 %tmp.691 %tmp.693;
+            %tmp.697 = const :font;
+            %tmp.698 = lgetv %local_Rez_Fonts_id_smol.6;
+            symbol [ local_Rez_Fonts_id_smol %tmp.698 75 183 206 ];
+            %tmp.699 = dup %tmp.695;
+            %tmp.700 = aputv %tmp.699 %tmp.697 %tmp.698;
+            %tmp.665 = newc %tmp.668 (%tmp.700);
+            lputv %rez_cmp_local_text_TTRReady.24 %tmp.665;
+            symbol [ rez_cmp_local_text_TTRReady %rez_cmp_local_text_TTRReady.24 75 16 43 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 77 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_StepLabel.25 = local;
+            symbol [ rez_cmp_local_text_StepLabel %rez_cmp_local_text_StepLabel.25 77 16 44 ];
+            symbol [ WatchUi %tmp.703 77 51 58 ];
+            %tmp.703 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.704 77 59 63 ];
+            %tmp.704 = getv function ? %tmp.703 :Text;
+            %tmp.705 = newd 6;
+            %tmp.707 = const :identifier;
+            %tmp.708 = "StepLabel";
+            %tmp.709 = dup %tmp.705;
+            %tmp.710 = aputv %tmp.709 %tmp.707 %tmp.708;
+            %tmp.712 = const :color;
+            %tmp.713 = 0xFFFFFF;
+            %tmp.714 = dup %tmp.710;
+            %tmp.715 = aputv %tmp.714 %tmp.712 %tmp.713;
+            %tmp.717 = const :locX;
+            %tmp.718 = 390;
+            %tmp.719 = 0.5;
+            %tmp.720 = mul %tmp.718 %tmp.719;
+            %tmp.721 = dup %tmp.715;
+            %tmp.722 = aputv %tmp.721 %tmp.717 %tmp.720;
+            %tmp.724 = const :locY;
+            %tmp.725 = 220;
+            %tmp.726 = dup %tmp.722;
+            %tmp.727 = aputv %tmp.726 %tmp.724 %tmp.725;
+            %tmp.729 = const :justification;
+            symbol [ Graphics %tmp.730 77 157 165 ];
+            %tmp.730 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.731 77 166 185 ];
+            %tmp.731 = getv %tmp.730 :TEXT_JUSTIFY_CENTER;
+            %tmp.732 = dup %tmp.727;
+            %tmp.733 = aputv %tmp.732 %tmp.729 %tmp.731;
+            %tmp.735 = const :font;
+            %tmp.736 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.736 77 194 216 ];
+            %tmp.737 = dup %tmp.733;
+            %tmp.738 = aputv %tmp.737 %tmp.735 %tmp.736;
+            %tmp.701 = newc %tmp.704 (%tmp.738);
+            lputv %rez_cmp_local_text_StepLabel.25 %tmp.701;
+            symbol [ rez_cmp_local_text_StepLabel %rez_cmp_local_text_StepLabel.25 77 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 79 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_ActiveLabel.26 = local;
+            symbol [ rez_cmp_local_text_ActiveLabel %rez_cmp_local_text_ActiveLabel.26 79 16 46 ];
+            symbol [ WatchUi %tmp.741 79 53 60 ];
+            %tmp.741 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.742 79 61 65 ];
+            %tmp.742 = getv function ? %tmp.741 :Text;
+            %tmp.743 = newd 6;
+            %tmp.745 = const :identifier;
+            %tmp.746 = "ActiveLabel";
+            %tmp.747 = dup %tmp.743;
+            %tmp.748 = aputv %tmp.747 %tmp.745 %tmp.746;
+            %tmp.750 = const :color;
+            %tmp.751 = 0xFFFFFF;
+            %tmp.752 = dup %tmp.748;
+            %tmp.753 = aputv %tmp.752 %tmp.750 %tmp.751;
+            %tmp.755 = const :locX;
+            %tmp.756 = 181;
+            %tmp.757 = dup %tmp.753;
+            %tmp.758 = aputv %tmp.757 %tmp.755 %tmp.756;
+            %tmp.760 = const :locY;
+            %tmp.761 = 192;
+            %tmp.762 = dup %tmp.758;
+            %tmp.763 = aputv %tmp.762 %tmp.760 %tmp.761;
+            %tmp.765 = const :justification;
+            symbol [ Graphics %tmp.766 79 153 161 ];
+            %tmp.766 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_LEFT %tmp.767 79 162 179 ];
+            %tmp.767 = getv %tmp.766 :TEXT_JUSTIFY_LEFT;
+            %tmp.768 = dup %tmp.763;
+            %tmp.769 = aputv %tmp.768 %tmp.765 %tmp.767;
+            %tmp.771 = const :font;
+            %tmp.772 = lgetv %local_Rez_Fonts_id_led.5;
+            symbol [ local_Rez_Fonts_id_led %tmp.772 79 188 210 ];
+            %tmp.773 = dup %tmp.769;
+            %tmp.774 = aputv %tmp.773 %tmp.771 %tmp.772;
+            %tmp.739 = newc %tmp.742 (%tmp.774);
+            lputv %rez_cmp_local_text_ActiveLabel.26 %tmp.739;
+            symbol [ rez_cmp_local_text_ActiveLabel %rez_cmp_local_text_ActiveLabel.26 79 16 46 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 81 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_ActiveDesc.27 = local;
+            symbol [ rez_cmp_local_text_ActiveDesc %rez_cmp_local_text_ActiveDesc.27 81 16 45 ];
+            symbol [ WatchUi %tmp.777 81 52 59 ];
+            %tmp.777 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.778 81 60 64 ];
+            %tmp.778 = getv function ? %tmp.777 :Text;
+            %tmp.779 = newd 6;
+            %tmp.781 = const :identifier;
+            %tmp.782 = "ActiveDesc";
+            %tmp.783 = dup %tmp.779;
+            %tmp.784 = aputv %tmp.783 %tmp.781 %tmp.782;
+            %tmp.786 = const :color;
+            %tmp.787 = 0x005555;
+            %tmp.788 = dup %tmp.784;
+            %tmp.789 = aputv %tmp.788 %tmp.786 %tmp.787;
+            %tmp.791 = const :locX;
+            %tmp.792 = 176;
+            %tmp.793 = dup %tmp.789;
+            %tmp.794 = aputv %tmp.793 %tmp.791 %tmp.792;
+            %tmp.796 = const :locY;
+            %tmp.797 = 197;
+            %tmp.798 = dup %tmp.794;
+            %tmp.799 = aputv %tmp.798 %tmp.796 %tmp.797;
+            %tmp.801 = const :justification;
+            symbol [ Graphics %tmp.802 81 151 159 ];
+            %tmp.802 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_RIGHT %tmp.803 81 160 178 ];
+            %tmp.803 = getv %tmp.802 :TEXT_JUSTIFY_RIGHT;
+            %tmp.804 = dup %tmp.799;
+            %tmp.805 = aputv %tmp.804 %tmp.801 %tmp.803;
+            %tmp.807 = const :font;
+            %tmp.808 = lgetv %local_Rez_Fonts_id_xsmol.2;
+            symbol [ local_Rez_Fonts_id_xsmol %tmp.808 81 187 211 ];
+            %tmp.809 = dup %tmp.805;
+            %tmp.810 = aputv %tmp.809 %tmp.807 %tmp.808;
+            %tmp.775 = newc %tmp.778 (%tmp.810);
+            lputv %rez_cmp_local_text_ActiveDesc.27 %tmp.775;
+            symbol [ rez_cmp_local_text_ActiveDesc %rez_cmp_local_text_ActiveDesc.27 81 16 45 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 83 12 ]
+            [ "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_start" "d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop" ]
+            %rez_cmp_local_text_BattLabel.28 = local;
+            symbol [ rez_cmp_local_text_BattLabel %rez_cmp_local_text_BattLabel.28 83 16 44 ];
+            symbol [ WatchUi %tmp.813 83 51 58 ];
+            %tmp.813 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.814 83 59 63 ];
+            %tmp.814 = getv function ? %tmp.813 :Text;
+            %tmp.815 = newd 6;
+            %tmp.817 = const :identifier;
+            %tmp.818 = "BattLabel";
+            %tmp.819 = dup %tmp.815;
+            %tmp.820 = aputv %tmp.819 %tmp.817 %tmp.818;
+            %tmp.822 = const :color;
+            %tmp.823 = 0x00FF00;
+            %tmp.824 = dup %tmp.820;
+            %tmp.825 = aputv %tmp.824 %tmp.822 %tmp.823;
+            %tmp.827 = const :locX;
+            %tmp.828 = 390;
+            %tmp.829 = 0.5;
+            %tmp.830 = mul %tmp.828 %tmp.829;
+            %tmp.831 = dup %tmp.825;
+            %tmp.832 = aputv %tmp.831 %tmp.827 %tmp.830;
+            %tmp.834 = const :locY;
+            %tmp.835 = 245;
+            %tmp.836 = dup %tmp.832;
+            %tmp.837 = aputv %tmp.836 %tmp.834 %tmp.835;
+            %tmp.839 = const :justification;
+            symbol [ Graphics %tmp.840 83 157 165 ];
+            %tmp.840 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.841 83 166 185 ];
+            %tmp.841 = getv %tmp.840 :TEXT_JUSTIFY_CENTER;
+            %tmp.842 = dup %tmp.837;
+            %tmp.843 = aputv %tmp.842 %tmp.839 %tmp.841;
+            %tmp.845 = const :font;
+            %tmp.846 = lgetv %local_Rez_Fonts_id_xsmol.2;
+            symbol [ local_Rez_Fonts_id_xsmol %tmp.846 83 194 218 ];
+            %tmp.847 = dup %tmp.843;
+            %tmp.848 = aputv %tmp.847 %tmp.845 %tmp.846;
+            %tmp.811 = newc %tmp.814 (%tmp.848);
+            lputv %rez_cmp_local_text_BattLabel.28 %tmp.811;
+            symbol [ rez_cmp_local_text_BattLabel %rez_cmp_local_text_BattLabel.28 83 16 44 ];
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 85 12 ]
+            %tmp.849 = newa 22 Array<WatchUi.Drawable>;
+            %tmp.850 = lgetv %rez_cmp_local_text_WeatherCode.7;
+            symbol [ rez_cmp_local_text_WeatherCode %tmp.850 85 20 50 ];
+            %tmp.851 = dup %tmp.849;
+            %tmp.852 = aputv %tmp.851 0 %tmp.850;
+            %tmp.853 = lgetv %rez_cmp_local_text_WeatherLabel.8;
+            symbol [ rez_cmp_local_text_WeatherLabel %tmp.853 85 52 83 ];
+            %tmp.854 = dup %tmp.852;
+            %tmp.855 = aputv %tmp.854 1 %tmp.853;
+            %tmp.856 = lgetv %rez_cmp_local_text_HRIconR.9;
+            symbol [ rez_cmp_local_text_HRIconR %tmp.856 85 85 111 ];
+            %tmp.857 = dup %tmp.855;
+            %tmp.858 = aputv %tmp.857 2 %tmp.856;
+            %tmp.859 = lgetv %rez_cmp_local_text_HRIconW.10;
+            symbol [ rez_cmp_local_text_HRIconW %tmp.859 85 113 139 ];
+            %tmp.860 = dup %tmp.858;
+            %tmp.861 = aputv %tmp.860 3 %tmp.859;
+            %tmp.862 = lgetv %rez_cmp_local_text_WindIcon.11;
+            symbol [ rez_cmp_local_text_WindIcon %tmp.862 85 141 168 ];
+            %tmp.863 = dup %tmp.861;
+            %tmp.864 = aputv %tmp.863 4 %tmp.862;
+            %tmp.865 = lgetv %rez_cmp_local_text_MoonLabel.12;
+            symbol [ rez_cmp_local_text_MoonLabel %tmp.865 85 170 198 ];
+            %tmp.866 = dup %tmp.864;
+            %tmp.867 = aputv %tmp.866 5 %tmp.865;
+            %tmp.868 = lgetv %rez_cmp_local_text_HRLabel.13;
+            symbol [ rez_cmp_local_text_HRLabel %tmp.868 85 200 226 ];
+            %tmp.869 = dup %tmp.867;
+            %tmp.870 = aputv %tmp.869 6 %tmp.868;
+            %tmp.871 = lgetv %rez_cmp_local_text_TempLabel.14;
+            symbol [ rez_cmp_local_text_TempLabel %tmp.871 85 228 256 ];
+            %tmp.872 = dup %tmp.870;
+            %tmp.873 = aputv %tmp.872 7 %tmp.871;
+            %tmp.874 = lgetv %rez_cmp_local_text_WindLabel.15;
+            symbol [ rez_cmp_local_text_WindLabel %tmp.874 85 258 286 ];
+            %tmp.875 = dup %tmp.873;
+            %tmp.876 = aputv %tmp.875 8 %tmp.874;
+            %tmp.877 = lgetv %rez_cmp_local_text_SunUpLabel.16;
+            symbol [ rez_cmp_local_text_SunUpLabel %tmp.877 85 288 317 ];
+            %tmp.878 = dup %tmp.876;
+            %tmp.879 = aputv %tmp.878 9 %tmp.877;
+            %tmp.880 = lgetv %rez_cmp_local_text_SunDownLabel.17;
+            symbol [ rez_cmp_local_text_SunDownLabel %tmp.880 85 319 350 ];
+            %tmp.881 = dup %tmp.879;
+            %tmp.882 = aputv %tmp.881 10 %tmp.880;
+            %tmp.883 = lgetv %rez_cmp_local_text_TimeBg.18;
+            symbol [ rez_cmp_local_text_TimeBg %tmp.883 85 352 377 ];
+            %tmp.884 = dup %tmp.882;
+            %tmp.885 = aputv %tmp.884 11 %tmp.883;
+            %tmp.886 = lgetv %rez_cmp_local_text_TimeLabel.19;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.886 85 379 407 ];
+            %tmp.887 = dup %tmp.885;
+            %tmp.888 = aputv %tmp.887 12 %tmp.886;
+            %tmp.889 = lgetv %rez_cmp_local_text_DateLabel.20;
+            symbol [ rez_cmp_local_text_DateLabel %tmp.889 85 409 437 ];
+            %tmp.890 = dup %tmp.888;
+            %tmp.891 = aputv %tmp.890 13 %tmp.889;
+            %tmp.892 = lgetv %rez_cmp_local_text_NotifLabel.21;
+            symbol [ rez_cmp_local_text_NotifLabel %tmp.892 85 439 468 ];
+            %tmp.893 = dup %tmp.891;
+            %tmp.894 = aputv %tmp.893 14 %tmp.892;
+            %tmp.895 = lgetv %rez_cmp_local_text_TTRLabel.22;
+            symbol [ rez_cmp_local_text_TTRLabel %tmp.895 85 470 497 ];
+            %tmp.896 = dup %tmp.894;
+            %tmp.897 = aputv %tmp.896 15 %tmp.895;
+            %tmp.898 = lgetv %rez_cmp_local_text_TTRDesc.23;
+            symbol [ rez_cmp_local_text_TTRDesc %tmp.898 85 499 525 ];
+            %tmp.899 = dup %tmp.897;
+            %tmp.900 = aputv %tmp.899 16 %tmp.898;
+            %tmp.901 = lgetv %rez_cmp_local_text_TTRReady.24;
+            symbol [ rez_cmp_local_text_TTRReady %tmp.901 85 527 554 ];
+            %tmp.902 = dup %tmp.900;
+            %tmp.903 = aputv %tmp.902 17 %tmp.901;
+            %tmp.904 = lgetv %rez_cmp_local_text_StepLabel.25;
+            symbol [ rez_cmp_local_text_StepLabel %tmp.904 85 556 584 ];
+            %tmp.905 = dup %tmp.903;
+            %tmp.906 = aputv %tmp.905 18 %tmp.904;
+            %tmp.907 = lgetv %rez_cmp_local_text_ActiveLabel.26;
+            symbol [ rez_cmp_local_text_ActiveLabel %tmp.907 85 586 616 ];
+            %tmp.908 = dup %tmp.906;
+            %tmp.909 = aputv %tmp.908 19 %tmp.907;
+            %tmp.910 = lgetv %rez_cmp_local_text_ActiveDesc.27;
+            symbol [ rez_cmp_local_text_ActiveDesc %tmp.910 85 618 647 ];
+            %tmp.911 = dup %tmp.909;
+            %tmp.912 = aputv %tmp.911 20 %tmp.910;
+            %tmp.913 = lgetv %rez_cmp_local_text_BattLabel.28;
+            symbol [ rez_cmp_local_text_BattLabel %tmp.913 85 649 677 ];
+            %tmp.914 = dup %tmp.912;
+            %tmp.915 = aputv %tmp.914 21 %tmp.913;
+            ret %tmp.915;
+d_RDx_DevBox_GARMIN_Face_Segment34_source_gen_006_B4124_00_source_Rez_mcgen_34_73_86_8_stop:
+        }
+    }
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [Strings,89,11,18]; ]
+    module Strings {
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 89; ]
+        <init> {
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 90; @position = 27; initialized = true; @symbol_vardef = [AppName,90,27,34]; @symbol_type<0> = [ResourceId,90,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 93; @symbol_moduledef = [Styles,93,11,17]; ]
+    module Styles {
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 93; ]
+        <init> {
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,94,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [exclude,95,18,25]; @symbol_type<0> = [Boolean,95,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 98; @symbol_moduledef = [system_size__menu_header,98,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [width,99,18,23]; @symbol_type<0> = [Number,99,27,33]; ]
+            const width as Number = 390;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [height,100,18,24]; @symbol_type<0> = [Number,100,28,34]; ]
+            const height as Number = 122;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 103; @symbol_moduledef = [system_loc__hint_button_left_bottom,103,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [x,104,18,19]; @symbol_type<0> = [Number,104,23,29]; ]
+            const x as Number = 15;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [y,105,18,19]; @symbol_type<0> = [Number,105,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 108; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,108,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [exclude,109,18,25]; @symbol_type<0> = [Boolean,109,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 112; @symbol_moduledef = [prompt_loc__body_no_title,112,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [x,113,18,19]; @symbol_type<0> = [Number,113,23,29]; ]
+            const x as Number = 39;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [y,114,18,19]; @symbol_type<0> = [Number,114,23,29]; ]
+            const y as Number = 39;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 117; @symbol_moduledef = [system_icon_dark__about,117,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [filename,118,18,26]; @symbol_type<0> = [String,118,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__about.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [compress,119,18,26]; @symbol_type<0> = [String,119,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [dithering,120,18,27]; @symbol_type<0> = [String,120,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [automaticPalette,121,18,34]; @symbol_type<0> = [String,121,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 124; @symbol_moduledef = [system_icon_light__question,124,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 124; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [filename,125,18,26]; @symbol_type<0> = [String,125,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__question.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [dithering,126,18,27]; @symbol_type<0> = [String,126,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 129; @symbol_moduledef = [system_loc__hint_button_left_top,129,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 129; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [exclude,130,18,25]; @symbol_type<0> = [Boolean,130,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 133; @symbol_moduledef = [prompt_font__title,133,15,33]; ]
+        module prompt_font__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 133; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 134 18 ]
+                symbol [ Graphics %tmp.916 134 34 42 ];
+                %tmp.916 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.917 134 43 62 ];
+                %tmp.917 = getv %tmp.916 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.918 134 63 71 ];
+                %tmp.918 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.919 134 72 92 ];
+                %tmp.919 = getv %tmp.918 :TEXT_JUSTIFY_VCENTER;
+                %tmp.920 = bitor %tmp.917 %tmp.919;
+                putv self :justification %tmp.920;
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 135 18 ]
+                symbol [ Graphics %tmp.921 135 25 33 ];
+                %tmp.921 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.922 135 34 44 ];
+                %tmp.922 = getv %tmp.921 :FONT_XTINY;
+                putv self :font %tmp.922;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [justification,134,18,31]; ]
+            const justification;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [font,135,18,22]; ]
+            const font;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 138; @symbol_moduledef = [system_icon_dark__discard,138,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [filename,139,18,26]; @symbol_type<0> = [String,139,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__discard.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 140; @position = 18; @symbol_constdef = [compress,140,18,26]; @symbol_type<0> = [String,140,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [dithering,141,18,27]; @symbol_type<0> = [String,141,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [automaticPalette,142,18,34]; @symbol_type<0> = [String,142,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 145; @symbol_moduledef = [system_size__menu_item,145,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [width,146,18,23]; @symbol_type<0> = [Number,146,27,33]; ]
+            const width as Number = 390;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [height,147,18,24]; @symbol_type<0> = [Number,147,28,34]; ]
+            const height as Number = 102;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 150; @symbol_moduledef = [system_color_dark__text,150,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 150; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 152 18 ]
+                symbol [ Graphics %tmp.923 152 31 39 ];
+                %tmp.923 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.924 152 40 57 ];
+                %tmp.924 = getv %tmp.923 :COLOR_TRANSPARENT;
+                putv self :background %tmp.924;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [color,151,18,23]; @symbol_type<0> = [Number,151,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [background,152,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 155; @symbol_moduledef = [system_icon_destructive__discard,155,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [filename,156,18,26]; @symbol_type<0> = [String,156,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__discard.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [dithering,157,18,27]; @symbol_type<0> = [String,157,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 160; @symbol_moduledef = [system_icon_dark__hint_action_menu,160,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 160; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [filename,161,18,26]; @symbol_type<0> = [String,161,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [dithering,162,18,27]; @symbol_type<0> = [String,162,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 165; @symbol_moduledef = [prompt_size__title,165,15,33]; ]
+        module prompt_size__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [width,166,18,23]; @symbol_type<0> = [Number,166,27,33]; ]
+            const width as Number = 312;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [height,167,18,24]; @symbol_type<0> = [Number,167,28,34]; ]
+            const height as Number = 59;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 170; @symbol_moduledef = [confirmation_font__body,170,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 170; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 171 18 ]
+                symbol [ Graphics %tmp.925 171 34 42 ];
+                %tmp.925 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.926 171 43 62 ];
+                %tmp.926 = getv %tmp.925 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.927 171 63 71 ];
+                %tmp.927 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.928 171 72 92 ];
+                %tmp.928 = getv %tmp.927 :TEXT_JUSTIFY_VCENTER;
+                %tmp.929 = bitor %tmp.926 %tmp.928;
+                putv self :justification %tmp.929;
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 172 18 ]
+                symbol [ Graphics %tmp.930 172 25 33 ];
+                %tmp.930 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.931 172 34 43 ];
+                %tmp.931 = getv %tmp.930 :FONT_TINY;
+                putv self :font %tmp.931;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [justification,171,18,31]; ]
+            const justification;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [font,172,18,22]; ]
+            const font;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 175; @symbol_moduledef = [system_color_dark__background,175,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 175; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [color,176,18,23]; @symbol_type<0> = [Number,176,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [background,177,18,28]; @symbol_type<0> = [Number,177,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 180; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,180,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 180; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [filename,181,18,26]; @symbol_type<0> = [String,181,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [dithering,182,18,27]; @symbol_type<0> = [String,182,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 185; @symbol_moduledef = [system_size__launch_icon,185,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [scaleX,186,18,24]; @symbol_type<0> = [Number,186,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [scaleY,187,18,24]; @symbol_type<0> = [Number,187,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [scaleRelativeTo,188,18,33]; @symbol_type<0> = [String,188,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [confirmation_input__confirm,191,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 192 18 ]
+                symbol [ WatchUi %tmp.932 192 27 34 ];
+                %tmp.932 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.933 192 35 44 ];
+                %tmp.933 = getv %tmp.932 :KEY_ENTER;
+                putv self :button %tmp.933;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [button,192,18,24]; ]
+            const button;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 195; @symbol_moduledef = [prompt_font__body_with_title,195,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 195; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 196 18 ]
+                symbol [ Graphics %tmp.934 196 34 42 ];
+                %tmp.934 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.935 196 43 62 ];
+                %tmp.935 = getv %tmp.934 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.935;
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 197 18 ]
+                symbol [ Graphics %tmp.936 197 25 33 ];
+                %tmp.936 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.937 197 34 43 ];
+                %tmp.937 = getv %tmp.936 :FONT_TINY;
+                putv self :font %tmp.937;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [justification,196,18,31]; ]
+            const justification;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [font,197,18,22]; ]
+            const font;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 200; @symbol_moduledef = [confirmation_loc__body,200,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [x,201,18,19]; @symbol_type<0> = [Number,201,23,29]; ]
+            const x as Number = 78;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [y,202,18,19]; @symbol_type<0> = [Number,202,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 205; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,205,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [filename,206,18,26]; @symbol_type<0> = [String,206,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [dithering,207,18,27]; @symbol_type<0> = [String,207,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 210; @symbol_moduledef = [prompt_color_dark__background,210,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [color,211,18,23]; @symbol_type<0> = [Number,211,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [background,212,18,28]; @symbol_type<0> = [Number,212,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [system_icon_destructive__hint_action_menu,215,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [filename,216,18,26]; @symbol_type<0> = [String,216,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [dithering,217,18,27]; @symbol_type<0> = [String,217,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 220; @symbol_moduledef = [system_loc__hint_action_menu,220,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 220; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [x,221,18,19]; @symbol_type<0> = [Number,221,23,29]; ]
+            const x as Number = 337;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [y,222,18,19]; @symbol_type<0> = [Number,222,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 225; @symbol_moduledef = [confirmation_icon__hint_confirm,225,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 225; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [filename,226,18,26]; @symbol_type<0> = [String,226,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_completion.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [dithering,227,18,27]; @symbol_type<0> = [String,227,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 230; @symbol_moduledef = [system_loc__hint_button_left_middle,230,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [x,231,18,19]; @symbol_type<0> = [Number,231,23,29]; ]
+            const x as Number = 4;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [y,232,18,19]; @symbol_type<0> = [Number,232,23,29]; ]
+            const y as Number = 162;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 235; @symbol_moduledef = [prompt_size__body_no_title,235,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [width,236,18,23]; @symbol_type<0> = [Number,236,27,33]; ]
+            const width as Number = 312;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [height,237,18,24]; @symbol_type<0> = [Number,237,28,34]; ]
+            const height as Number = 312;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 240; @symbol_moduledef = [system_icon_light__hint_button_left_top,240,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 240; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [filename,241,18,26]; @symbol_type<0> = [String,241,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [dithering,242,18,27]; @symbol_type<0> = [String,242,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 245; @symbol_moduledef = [prompt_color_light__background,245,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [color,246,18,23]; @symbol_type<0> = [Number,246,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [background,247,18,28]; @symbol_type<0> = [Number,247,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 250; @symbol_moduledef = [confirmation_input__delete,250,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 250; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 251 18 ]
+                symbol [ WatchUi %tmp.938 251 27 34 ];
+                %tmp.938 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.939 251 35 44 ];
+                %tmp.939 = getv %tmp.938 :KEY_ENTER;
+                putv self :button %tmp.939;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [button,251,18,24]; ]
+            const button;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 254; @symbol_moduledef = [system_icon_dark__hint_button_left_top,254,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [filename,255,18,26]; @symbol_type<0> = [String,255,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [dithering,256,18,27]; @symbol_type<0> = [String,256,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 259; @symbol_moduledef = [system_input__action_menu,259,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 260 18 ]
+                symbol [ WatchUi %tmp.940 260 27 34 ];
+                %tmp.940 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.941 260 35 44 ];
+                %tmp.941 = getv %tmp.940 :KEY_ENTER;
+                putv self :button %tmp.941;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [button,260,18,24]; ]
+            const button;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [system_icon_light__save,263,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [filename,264,18,26]; @symbol_type<0> = [String,264,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__save.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [dithering,265,18,27]; @symbol_type<0> = [String,265,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [prompt_color_light__body,268,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 270 18 ]
+                symbol [ Graphics %tmp.942 270 31 39 ];
+                %tmp.942 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.943 270 40 57 ];
+                %tmp.943 = getv %tmp.942 :COLOR_TRANSPARENT;
+                putv self :background %tmp.943;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [color,269,18,23]; @symbol_type<0> = [Number,269,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [background,270,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [system_loc__subwindow,273,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [exclude,274,18,25]; @symbol_type<0> = [Boolean,274,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 277; @symbol_moduledef = [system_icon_light__warning,277,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__warning.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [dithering,279,18,27]; @symbol_type<0> = [String,279,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 282; @symbol_moduledef = [confirmation_color_light__body,282,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 282; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 284 18 ]
+                symbol [ Graphics %tmp.944 284 31 39 ];
+                %tmp.944 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.945 284 40 57 ];
+                %tmp.945 = getv %tmp.944 :COLOR_TRANSPARENT;
+                putv self :background %tmp.945;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [color,283,18,23]; @symbol_type<0> = [Number,283,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [background,284,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 287; @symbol_moduledef = [confirmation_icon_light__hint_keep,287,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 288; @position = 18; @symbol_constdef = [filename,288,18,26]; @symbol_type<0> = [String,288,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_keep.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [dithering,289,18,27]; @symbol_type<0> = [String,289,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 292; @symbol_moduledef = [activity_color_light__background,292,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [color,293,18,23]; @symbol_type<0> = [Number,293,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [background,294,18,28]; @symbol_type<0> = [Number,294,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_positive__hint_button_right_top,297,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [dithering,299,18,27]; @symbol_type<0> = [String,299,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 302; @symbol_moduledef = [system_size__screen,302,15,34]; ]
+        module system_size__screen {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [width,303,18,23]; @symbol_type<0> = [Number,303,27,33]; ]
+            const width as Number = 390;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [height,304,18,24]; @symbol_type<0> = [Number,304,28,34]; ]
+            const height as Number = 390;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,307,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 312; @symbol_moduledef = [system_color_light__background,312,15,45]; ]
+        module system_color_light__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [color,313,18,23]; @symbol_type<0> = [Number,313,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [background,314,18,28]; @symbol_type<0> = [Number,314,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 317; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,317,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [filename,318,18,26]; @symbol_type<0> = [String,318,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [dithering,319,18,27]; @symbol_type<0> = [String,319,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 322; @symbol_moduledef = [confirmation_loc__hint_confirm,322,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [x,323,18,19]; @symbol_type<0> = [Number,323,23,29]; ]
+            const x as Number = 317;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [y,324,18,19]; @symbol_type<0> = [Number,324,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 327; @symbol_moduledef = [activity_color_dark__text,327,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 329 18 ]
+                symbol [ Graphics %tmp.946 329 31 39 ];
+                %tmp.946 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.947 329 40 57 ];
+                %tmp.947 = getv %tmp.946 :COLOR_TRANSPARENT;
+                putv self :background %tmp.947;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [color,328,18,23]; @symbol_type<0> = [Number,328,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [background,329,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 332; @symbol_moduledef = [confirmation_input__keep,332,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 333 18 ]
+                symbol [ WatchUi %tmp.948 333 27 34 ];
+                %tmp.948 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.949 333 35 43 ];
+                %tmp.949 = getv %tmp.948 :KEY_DOWN;
+                putv self :button %tmp.949;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [button,333,18,24]; ]
+            const button;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 336; @symbol_moduledef = [prompt_loc__body_with_title,336,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [x,337,18,19]; @symbol_type<0> = [Number,337,23,29]; ]
+            const x as Number = 39;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [y,338,18,19]; @symbol_type<0> = [Number,338,23,29]; ]
+            const y as Number = 117;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 341; @symbol_moduledef = [system_icon_dark__search,341,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [filename,342,18,26]; @symbol_type<0> = [String,342,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__search.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [compress,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [dithering,344,18,27]; @symbol_type<0> = [String,344,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [automaticPalette,345,18,34]; @symbol_type<0> = [String,345,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 348; @symbol_moduledef = [activity_color_light__text,348,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 348; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 350 18 ]
+                symbol [ Graphics %tmp.950 350 31 39 ];
+                %tmp.950 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.951 350 40 57 ];
+                %tmp.951 = getv %tmp.950 :COLOR_TRANSPARENT;
+                putv self :background %tmp.951;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [color,349,18,23]; @symbol_type<0> = [Number,349,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [background,350,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 353; @symbol_moduledef = [confirmation_icon__hint_keep,353,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [filename,354,18,26]; @symbol_type<0> = [String,354,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_keep.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [dithering,355,18,27]; @symbol_type<0> = [String,355,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 358; @symbol_moduledef = [system_icon_dark__save,358,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [filename,359,18,26]; @symbol_type<0> = [String,359,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__save.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 360; @position = 18; @symbol_constdef = [compress,360,18,26]; @symbol_type<0> = [String,360,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [dithering,361,18,27]; @symbol_type<0> = [String,361,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [automaticPalette,362,18,34]; @symbol_type<0> = [String,362,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 365; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,365,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 365; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [filename,366,18,26]; @symbol_type<0> = [String,366,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [dithering,367,18,27]; @symbol_type<0> = [String,367,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 370; @symbol_moduledef = [system_icon_light__search,370,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 370; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [filename,371,18,26]; @symbol_type<0> = [String,371,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__search.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [dithering,372,18,27]; @symbol_type<0> = [String,372,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 375; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,375,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [dithering,377,18,27]; @symbol_type<0> = [String,377,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 380; @symbol_moduledef = [system_icon_positive__hint_button_left_top,380,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 385; @symbol_moduledef = [system_loc__hint_button_right_bottom,385,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 385; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [x,386,18,19]; @symbol_type<0> = [Number,386,23,29]; ]
+            const x as Number = 337;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [y,387,18,19]; @symbol_type<0> = [Number,387,23,29]; ]
+            const y as Number = 258;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 390; @symbol_moduledef = [confirmation_icon_dark__hint_reject,390,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_reject.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 395; @symbol_moduledef = [confirmation_color_dark__body,395,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 397 18 ]
+                symbol [ Graphics %tmp.952 397 31 39 ];
+                %tmp.952 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.953 397 40 57 ];
+                %tmp.953 = getv %tmp.952 :COLOR_TRANSPARENT;
+                putv self :background %tmp.953;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [color,396,18,23]; @symbol_type<0> = [Number,396,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [background,397,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 400; @symbol_moduledef = [confirmation_icon_light__hint_confirm,400,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [filename,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_completion.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 405; @symbol_moduledef = [prompt_color_dark__title,405,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 407 18 ]
+                symbol [ Graphics %tmp.954 407 31 39 ];
+                %tmp.954 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.955 407 40 57 ];
+                %tmp.955 = getv %tmp.954 :COLOR_TRANSPARENT;
+                putv self :background %tmp.955;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [color,406,18,23]; @symbol_type<0> = [Number,406,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [background,407,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [system_icon_destructive__cancel,410,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__cancel.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,415,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [prompt_loc__title,420,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [x,421,18,19]; @symbol_type<0> = [Number,421,23,29]; ]
+            const x as Number = 39;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [y,422,18,19]; @symbol_type<0> = [Number,422,23,29]; ]
+            const y as Number = 29;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [confirmation_font_enhanced_readability__body,425,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [exclude,426,18,25]; @symbol_type<0> = [Boolean,426,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 429; @symbol_moduledef = [prompt_color_light__title,429,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 429; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 431 18 ]
+                symbol [ Graphics %tmp.956 431 31 39 ];
+                %tmp.956 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.957 431 40 57 ];
+                %tmp.957 = getv %tmp.956 :COLOR_TRANSPARENT;
+                putv self :background %tmp.957;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [color,430,18,23]; @symbol_type<0> = [Number,430,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [background,431,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 434; @symbol_moduledef = [system_icon_dark__hint_button_right_top,434,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [filename,435,18,26]; @symbol_type<0> = [String,435,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [dithering,436,18,27]; @symbol_type<0> = [String,436,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 439; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,439,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [filename,440,18,26]; @symbol_type<0> = [String,440,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [dithering,441,18,27]; @symbol_type<0> = [String,441,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 444; @symbol_moduledef = [confirmation_icon_dark__hint_keep,444,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_keep.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [dithering,446,18,27]; @symbol_type<0> = [String,446,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_light__cancel,449,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [filename,450,18,26]; @symbol_type<0> = [String,450,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__cancel.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [dithering,451,18,27]; @symbol_type<0> = [String,451,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 454; @symbol_moduledef = [confirmation_icon_light__hint_reject,454,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [filename,455,18,26]; @symbol_type<0> = [String,455,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_reject.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 459; @symbol_moduledef = [system_icon_light__about,459,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [filename,460,18,26]; @symbol_type<0> = [String,460,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__about.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [dithering,461,18,27]; @symbol_type<0> = [String,461,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 464; @symbol_moduledef = [system_size__toast_icon,464,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [scaleX,465,18,24]; @symbol_type<0> = [Number,465,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [scaleY,466,18,24]; @symbol_type<0> = [Number,466,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [scaleRelativeTo,467,18,33]; @symbol_type<0> = [String,467,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 470; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,470,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [exclude,471,18,25]; @symbol_type<0> = [Boolean,471,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 474; @symbol_moduledef = [confirmation_icon__hint_reject,474,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [filename,475,18,26]; @symbol_type<0> = [String,475,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_reject.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [dithering,476,18,27]; @symbol_type<0> = [String,476,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 479; @symbol_moduledef = [system_icon_light__hint_action_menu,479,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [filename,480,18,26]; @symbol_type<0> = [String,480,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [dithering,481,18,27]; @symbol_type<0> = [String,481,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 484; @symbol_moduledef = [system_icon_light__hint_button_right_middle,484,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [exclude,485,18,25]; @symbol_type<0> = [Boolean,485,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 488; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,488,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [exclude,489,18,25]; @symbol_type<0> = [Boolean,489,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 492; @symbol_moduledef = [confirmation_loc__hint_reject,492,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 492; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [x,493,18,19]; @symbol_type<0> = [Number,493,23,29]; ]
+            const x as Number = 15;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [y,494,18,19]; @symbol_type<0> = [Number,494,23,29]; ]
+            const y as Number = 258;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [horizontalJustification,495,18,41]; @symbol_type<0> = [String,495,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 498; @symbol_moduledef = [confirmation_icon_dark__hint_delete,498,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [filename,499,18,26]; @symbol_type<0> = [String,499,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_delete.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [dithering,500,18,27]; @symbol_type<0> = [String,500,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 503; @symbol_moduledef = [activity_color_dark__background,503,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 503; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [color,504,18,23]; @symbol_type<0> = [Number,504,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [background,505,18,28]; @symbol_type<0> = [Number,505,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 508; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,508,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [filename,509,18,26]; @symbol_type<0> = [String,509,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [dithering,510,18,27]; @symbol_type<0> = [String,510,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 513; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,513,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [filename,514,18,26]; @symbol_type<0> = [String,514,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [dithering,515,18,27]; @symbol_type<0> = [String,515,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 518; @symbol_moduledef = [system_size__menu_icon,518,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [scaleX,519,18,24]; @symbol_type<0> = [Number,519,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [scaleY,520,18,24]; @symbol_type<0> = [Number,520,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [scaleRelativeTo,521,18,33]; @symbol_type<0> = [String,521,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 524; @symbol_moduledef = [system_icon_destructive__warning,524,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [filename,525,18,26]; @symbol_type<0> = [String,525,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_destructive__warning.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [dithering,526,18,27]; @symbol_type<0> = [String,526,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 529; @symbol_moduledef = [system_loc__hint_button_right_middle,529,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [exclude,530,18,25]; @symbol_type<0> = [Boolean,530,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 533; @symbol_moduledef = [system_icon_dark__cancel,533,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [filename,534,18,26]; @symbol_type<0> = [String,534,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__cancel.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [compress,535,18,26]; @symbol_type<0> = [String,535,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [dithering,536,18,27]; @symbol_type<0> = [String,536,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [automaticPalette,537,18,34]; @symbol_type<0> = [String,537,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 540; @symbol_moduledef = [prompt_size__body_with_title,540,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 540; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [width,541,18,23]; @symbol_type<0> = [Number,541,27,33]; ]
+            const width as Number = 312;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [height,542,18,24]; @symbol_type<0> = [Number,542,28,34]; ]
+            const height as Number = 234;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 545; @symbol_moduledef = [system_loc__hint_button_right_top,545,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [x,546,18,19]; @symbol_type<0> = [Number,546,23,29]; ]
+            const x as Number = 337;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [y,547,18,19]; @symbol_type<0> = [Number,547,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 550; @symbol_moduledef = [system_color_light__text,550,15,39]; ]
+        module system_color_light__text {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 552 18 ]
+                symbol [ Graphics %tmp.958 552 31 39 ];
+                %tmp.958 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.959 552 40 57 ];
+                %tmp.959 = getv %tmp.958 :COLOR_TRANSPARENT;
+                putv self :background %tmp.959;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [color,551,18,23]; @symbol_type<0> = [Number,551,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [background,552,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 555; @symbol_moduledef = [system_icon_light__check,555,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [filename,556,18,26]; @symbol_type<0> = [String,556,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__check.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [dithering,557,18,27]; @symbol_type<0> = [String,557,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 560; @symbol_moduledef = [confirmation_input__reject,560,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 560; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 561 18 ]
+                symbol [ WatchUi %tmp.960 561 27 34 ];
+                %tmp.960 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.961 561 35 43 ];
+                %tmp.961 = getv %tmp.960 :KEY_DOWN;
+                putv self :button %tmp.961;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [button,561,18,24]; ]
+            const button;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 564; @symbol_moduledef = [system_icon_light__revert,564,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [filename,565,18,26]; @symbol_type<0> = [String,565,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__revert.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [dithering,566,18,27]; @symbol_type<0> = [String,566,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 569; @symbol_moduledef = [system_size__subwindow,569,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [exclude,570,18,25]; @symbol_type<0> = [Boolean,570,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 573; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,573,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [filename,574,18,26]; @symbol_type<0> = [String,574,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [dithering,575,18,27]; @symbol_type<0> = [String,575,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 578; @symbol_moduledef = [system_icon_dark__check,578,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [filename,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__check.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [compress,580,18,26]; @symbol_type<0> = [String,580,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [dithering,581,18,27]; @symbol_type<0> = [String,581,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [automaticPalette,582,18,34]; @symbol_type<0> = [String,582,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 585; @symbol_moduledef = [confirmation_loc__hint_keep,585,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [x,586,18,19]; @symbol_type<0> = [Number,586,23,29]; ]
+            const x as Number = 15;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [y,587,18,19]; @symbol_type<0> = [Number,587,23,29]; ]
+            const y as Number = 258;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [horizontalJustification,588,18,41]; @symbol_type<0> = [String,588,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 591; @symbol_moduledef = [confirmation_loc__hint_delete,591,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [x,592,18,19]; @symbol_type<0> = [Number,592,23,29]; ]
+            const x as Number = 317;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [y,593,18,19]; @symbol_type<0> = [Number,593,23,29]; ]
+            const y as Number = 72;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_positive__hint_action_menu,596,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 601; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,601,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [exclude,602,18,25]; @symbol_type<0> = [Boolean,602,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 605; @symbol_moduledef = [system_icon_light__hint_button_left_middle,605,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [filename,606,18,26]; @symbol_type<0> = [String,606,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [dithering,607,18,27]; @symbol_type<0> = [String,607,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 610; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,610,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [dithering,612,18,27]; @symbol_type<0> = [String,612,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 615; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,615,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [filename,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [system_icon_dark__revert,620,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [filename,621,18,26]; @symbol_type<0> = [String,621,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__revert.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [compress,622,18,26]; @symbol_type<0> = [String,622,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [dithering,623,18,27]; @symbol_type<0> = [String,623,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [automaticPalette,624,18,34]; @symbol_type<0> = [String,624,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 627; @symbol_moduledef = [confirmation_icon_light__hint_delete,627,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [filename,628,18,26]; @symbol_type<0> = [String,628,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_delete.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [dithering,629,18,27]; @symbol_type<0> = [String,629,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 632; @symbol_moduledef = [system_icon_dark__question,632,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 632; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [filename,633,18,26]; @symbol_type<0> = [String,633,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__question.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [compress,634,18,26]; @symbol_type<0> = [String,634,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [dithering,635,18,27]; @symbol_type<0> = [String,635,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [automaticPalette,636,18,34]; @symbol_type<0> = [String,636,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 639; @symbol_moduledef = [system_icon_light__discard,639,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [filename,640,18,26]; @symbol_type<0> = [String,640,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__discard.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [dithering,641,18,27]; @symbol_type<0> = [String,641,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 644; @symbol_moduledef = [device_info,644,15,26]; ]
+        module device_info {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 644; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 646 18 ]
+                symbol [ Toybox %tmp.963 646 32 38 ];
+                %tmp.963 = getv ? :Toybox;
+                symbol [ System %tmp.964 646 39 45 ];
+                %tmp.964 = getv %tmp.963 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.965 646 46 64 ];
+                %tmp.965 = getv %tmp.964 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.965;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [screenWidth,645,18,29]; @symbol_type<0> = [Number,645,33,39]; ]
+            const screenWidth as Number = 390;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [screenShape,646,18,29]; ]
+            const screenShape;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [hasNightMode,647,18,30]; @symbol_type<0> = [Boolean,647,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [hasGpu,648,18,24]; @symbol_type<0> = [Boolean,648,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [screenHeight,649,18,30]; @symbol_type<0> = [Number,649,34,40]; ]
+            const screenHeight as Number = 390;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [hasTouchScreen,650,18,32]; @symbol_type<0> = [Boolean,650,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,651,18,44]; @symbol_type<0> = [Boolean,651,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 654; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,654,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [filename,655,18,26]; @symbol_type<0> = [String,655,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_completion.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [dithering,656,18,27]; @symbol_type<0> = [String,656,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 659; @symbol_moduledef = [prompt_font__body_no_title,659,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 659; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 660 18 ]
+                symbol [ Graphics %tmp.966 660 34 42 ];
+                %tmp.966 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.967 660 43 62 ];
+                %tmp.967 = getv %tmp.966 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.968 660 63 71 ];
+                %tmp.968 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.969 660 72 92 ];
+                %tmp.969 = getv %tmp.968 :TEXT_JUSTIFY_VCENTER;
+                %tmp.970 = bitor %tmp.967 %tmp.969;
+                putv self :justification %tmp.970;
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 661 18 ]
+                symbol [ Graphics %tmp.971 661 25 33 ];
+                %tmp.971 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.972 661 34 43 ];
+                %tmp.972 = getv %tmp.971 :FONT_TINY;
+                putv self :font %tmp.972;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [justification,660,18,31]; ]
+            const justification;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [font,661,18,22]; ]
+            const font;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 664; @symbol_moduledef = [prompt_size__title_icon,664,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [scaleX,665,18,24]; @symbol_type<0> = [Float,665,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [scaleRelativeTo,666,18,33]; @symbol_type<0> = [String,666,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 669; @symbol_moduledef = [system_icon_dark__warning,669,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 669; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [filename,670,18,26]; @symbol_type<0> = [String,670,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_dark__warning.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 671; @position = 18; @symbol_constdef = [compress,671,18,26]; @symbol_type<0> = [String,671,30,36]; ]
+            const compress as String = "true";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 672; @position = 18; @symbol_constdef = [dithering,672,18,27]; @symbol_type<0> = [String,672,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [automaticPalette,673,18,34]; @symbol_type<0> = [String,673,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 676; @symbol_moduledef = [prompt_loc__title_icon,676,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 676; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 677; @position = 18; @symbol_constdef = [x,677,18,19]; @symbol_type<0> = [Number,677,23,29]; ]
+            const x as Number = 195;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [y,678,18,19]; @symbol_type<0> = [Number,678,23,29]; ]
+            const y as Number = 59;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [horizontalJustification,679,18,41]; @symbol_type<0> = [String,679,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [verticalJustification,680,18,39]; @symbol_type<0> = [String,680,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 683; @symbol_moduledef = [prompt_font_enhanced_readability__title,683,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [exclude,684,18,25]; @symbol_type<0> = [Boolean,684,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 687; @symbol_moduledef = [prompt_color_dark__body,687,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 687; ]
+            <init> {
+[ "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen" 689 18 ]
+                symbol [ Graphics %tmp.973 689 31 39 ];
+                %tmp.973 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.974 689 40 57 ];
+                %tmp.974 = getv %tmp.973 :COLOR_TRANSPARENT;
+                putv self :background %tmp.974;
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 688; @position = 18; @symbol_constdef = [color,688,18,23]; @symbol_type<0> = [Number,688,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [background,689,18,28]; ]
+            const background;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 692; @symbol_moduledef = [confirmation_icon__hint_delete,692,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [filename,693,18,26]; @symbol_type<0> = [String,693,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\confirmation_icon__hint_delete.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [dithering,694,18,27]; @symbol_type<0> = [String,694,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 697; @symbol_moduledef = [system_icon_light__hint_button_right_top,697,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 697; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [filename,698,18,26]; @symbol_type<0> = [String,698,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [dithering,699,18,27]; @symbol_type<0> = [String,699,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 702; @symbol_moduledef = [confirmation_size__body,702,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 702; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [width,703,18,23]; @symbol_type<0> = [Number,703,27,33]; ]
+            const width as Number = 234;
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [height,704,18,24]; @symbol_type<0> = [Number,704,28,34]; ]
+            const height as Number = 234;
+        }
+        [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 707; @symbol_moduledef = [system_icon_positive__check,707,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 707; ]
+            <init> {
+            }
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [filename,708,18,26]; @symbol_type<0> = [String,708,30,36]; ]
+            const filename as String = "C:\\Users\\RDx\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\marq2aviator\\system_icon_positive__check.svg";
+            [ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [dithering,709,18,27]; @symbol_type<0> = [String,709,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "d:\RDx\DevBox\GARMIN\Face\Segment34\source\gen\006-B4124-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

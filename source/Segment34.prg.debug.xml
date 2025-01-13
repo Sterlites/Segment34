@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\RDx\DevBox\GARMIN\Face\Segment34\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="1" lineNum="26" parent="globals" pc="268435457" symbol="getApp"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="1" lineNum="27" parent="globals" pc="268435467" symbol="getApp"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="2" lineNum="14" parent="globals/Segment34View" pc="268435478" symbol="&lt;init&gt;"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="4" lineNum="5" parent="globals/Segment34App" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="224" parent="globals/Segment34View" pc="268435522" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="225" parent="globals/Segment34View" pc="268435525" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="226" parent="globals/Segment34View" pc="268435532" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="227" parent="globals/Segment34View" pc="268435549" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="228" parent="globals/Segment34View" pc="268435556" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="230" parent="globals/Segment34View" pc="268435572" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="5" lineNum="231" parent="globals/Segment34View" pc="268435596" symbol="setNotif"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="6" lineNum="332" parent="globals/Segment34View" pc="268435609" symbol="month_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="6" lineNum="333" parent="globals/Segment34View" pc="268435612" symbol="month_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="6" lineNum="347" parent="globals/Segment34View" pc="268435619" symbol="month_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="383" parent="globals/Segment34View" pc="268435628" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="384" parent="globals/Segment34View" pc="268435630" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="385" parent="globals/Segment34View" pc="268435640" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="386" parent="globals/Segment34View" pc="268435642" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="387" parent="globals/Segment34View" pc="268435652" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="388" parent="globals/Segment34View" pc="268435654" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="389" parent="globals/Segment34View" pc="268435665" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="7" lineNum="391" parent="globals/Segment34View" pc="268435667" symbol="is_leap_year"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="394" parent="globals/Segment34View" pc="268435669" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="395" parent="globals/Segment34View" pc="268435672" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="397" parent="globals/Segment34View" pc="268435700" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="398" parent="globals/Segment34View" pc="268435709" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="399" parent="globals/Segment34View" pc="268435716" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="400" parent="globals/Segment34View" pc="268435735" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="402" parent="globals/Segment34View" pc="268435748" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="403" parent="globals/Segment34View" pc="268435756" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="404" parent="globals/Segment34View" pc="268435762" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="405" parent="globals/Segment34View" pc="268435770" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="406" parent="globals/Segment34View" pc="268435776" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="407" parent="globals/Segment34View" pc="268435784" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="408" parent="globals/Segment34View" pc="268435790" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="409" parent="globals/Segment34View" pc="268435798" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="410" parent="globals/Segment34View" pc="268435804" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="411" parent="globals/Segment34View" pc="268435812" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="412" parent="globals/Segment34View" pc="268435818" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="413" parent="globals/Segment34View" pc="268435826" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="414" parent="globals/Segment34View" pc="268435832" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="415" parent="globals/Segment34View" pc="268435840" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="416" parent="globals/Segment34View" pc="268435846" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="417" parent="globals/Segment34View" pc="268435854" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="8" lineNum="419" parent="globals/Segment34View" pc="268435860" symbol="moon_phase"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="256" parent="globals/Segment34View" pc="268435866" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="257" parent="globals/Segment34View" pc="268435869" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="258" parent="globals/Segment34View" pc="268435872" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="260" parent="globals/Segment34View" pc="268435875" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="262" parent="globals/Segment34View" pc="268435930" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="263" parent="globals/Segment34View" pc="268435964" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="264" parent="globals/Segment34View" pc="268435991" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="265" parent="globals/Segment34View" pc="268436000" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="266" parent="globals/Segment34View" pc="268436009" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="267" parent="globals/Segment34View" pc="268436015" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="268" parent="globals/Segment34View" pc="268436042" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="269" parent="globals/Segment34View" pc="268436058" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="271" parent="globals/Segment34View" pc="268436083" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="272" parent="globals/Segment34View" pc="268436089" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="273" parent="globals/Segment34View" pc="268436116" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="9" lineNum="274" parent="globals/Segment34View" pc="268436133" symbol="setStressAndBodyBattery"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="128" parent="globals/Segment34View" pc="268436158" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="129" parent="globals/Segment34View" pc="268436161" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="130" parent="globals/Segment34View" pc="268436168" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="132" parent="globals/Segment34View" pc="268436185" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="133" parent="globals/Segment34View" pc="268436192" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="134" parent="globals/Segment34View" pc="268436203" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="136" parent="globals/Segment34View" pc="268436223" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="10" lineNum="137" parent="globals/Segment34View" pc="268436247" symbol="setBatt"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="98" parent="globals/Segment34View" pc="268436260" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="99" parent="globals/Segment34View" pc="268436263" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="100" parent="globals/Segment34View" pc="268436275" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="101" parent="globals/Segment34View" pc="268436292" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="102" parent="globals/Segment34View" pc="268436304" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="11" lineNum="103" parent="globals/Segment34View" pc="268436328" symbol="setMoon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="163" parent="globals/Segment34View" pc="268436341" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="165" parent="globals/Segment34View" pc="268436344" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="166" parent="globals/Segment34View" pc="268436353" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="169" parent="globals/Segment34View" pc="268436354" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="170" parent="globals/Segment34View" pc="268436359" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="173" parent="globals/Segment34View" pc="268436374" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="176" parent="globals/Segment34View" pc="268436390" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="179" parent="globals/Segment34View" pc="268436406" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="182" parent="globals/Segment34View" pc="268436422" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="185" parent="globals/Segment34View" pc="268436438" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="188" parent="globals/Segment34View" pc="268436454" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="191" parent="globals/Segment34View" pc="268436470" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="194" parent="globals/Segment34View" pc="268436486" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="197" parent="globals/Segment34View" pc="268436502" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="200" parent="globals/Segment34View" pc="268436518" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="171" parent="globals/Segment34View" pc="268436521" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="172" parent="globals/Segment34View" pc="268436554" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="174" parent="globals/Segment34View" pc="268436557" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="175" parent="globals/Segment34View" pc="268436590" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="177" parent="globals/Segment34View" pc="268436593" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="178" parent="globals/Segment34View" pc="268436626" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="180" parent="globals/Segment34View" pc="268436629" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="181" parent="globals/Segment34View" pc="268436662" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="183" parent="globals/Segment34View" pc="268436665" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="184" parent="globals/Segment34View" pc="268436698" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="186" parent="globals/Segment34View" pc="268436701" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="187" parent="globals/Segment34View" pc="268436734" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="189" parent="globals/Segment34View" pc="268436737" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="190" parent="globals/Segment34View" pc="268436770" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="192" parent="globals/Segment34View" pc="268436773" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="193" parent="globals/Segment34View" pc="268436806" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="195" parent="globals/Segment34View" pc="268436809" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="196" parent="globals/Segment34View" pc="268436842" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="198" parent="globals/Segment34View" pc="268436845" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="199" parent="globals/Segment34View" pc="268436878" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="201" parent="globals/Segment34View" pc="268436881" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="203" parent="globals/Segment34View" pc="268436915" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="205" parent="globals/Segment34View" pc="268436931" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="12" lineNum="206" parent="globals/Segment34View" pc="268436964" symbol="setWeatherIcon"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="13" lineNum="375" parent="globals/Segment34View" pc="268436982" symbol="julian_day"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="13" lineNum="376" parent="globals/Segment34View" pc="268436985" symbol="julian_day"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="13" lineNum="377" parent="globals/Segment34View" pc="268436995" symbol="julian_day"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="13" lineNum="378" parent="globals/Segment34View" pc="268437006" symbol="julian_day"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="13" lineNum="379" parent="globals/Segment34View" pc="268437019" symbol="julian_day"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="14" lineNum="319" parent="globals/Segment34View" pc="268437065" symbol="day_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="14" lineNum="320" parent="globals/Segment34View" pc="268437068" symbol="day_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="14" lineNum="329" parent="globals/Segment34View" pc="268437075" symbol="day_name"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="140" parent="globals/Segment34View" pc="268437084" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="141" parent="globals/Segment34View" pc="268437087" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="142" parent="globals/Segment34View" pc="268437099" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="142" parent="globals/Segment34View" pc="268437105" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="143" parent="globals/Segment34View" pc="268437106" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="144" parent="globals/Segment34View" pc="268437119" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="144" parent="globals/Segment34View" pc="268437128" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="146" parent="globals/Segment34View" pc="268437129" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="147" parent="globals/Segment34View" pc="268437150" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="148" parent="globals/Segment34View" pc="268437174" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="150" parent="globals/Segment34View" pc="268437186" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="151" parent="globals/Segment34View" pc="268437207" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="152" parent="globals/Segment34View" pc="268437231" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="154" parent="globals/Segment34View" pc="268437243" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="155" parent="globals/Segment34View" pc="268437267" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="156" parent="globals/Segment34View" pc="268437325" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="158" parent="globals/Segment34View" pc="268437337" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="159" parent="globals/Segment34View" pc="268437361" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="15" lineNum="160" parent="globals/Segment34View" pc="268437382" symbol="setWeather"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="17" lineNum="250" parent="globals/Segment34View" pc="268437395" symbol="setStep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="17" lineNum="251" parent="globals/Segment34View" pc="268437398" symbol="setStep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="17" lineNum="252" parent="globals/Segment34View" pc="268437422" symbol="setStep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="17" lineNum="253" parent="globals/Segment34View" pc="268437452" symbol="setStep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="18" lineNum="309" parent="globals/Segment34View" pc="268437465" symbol="onExitSleep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="18" lineNum="310" parent="globals/Segment34View" pc="268437467" symbol="onExitSleep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="20" lineNum="25" parent="globals/Segment34View" pc="268437476" symbol="onLayout"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="20" lineNum="26" parent="globals/Segment34View" pc="268437478" symbol="onLayout"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="106" parent="globals/Segment34View" pc="268437512" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="107" parent="globals/Segment34View" pc="268437515" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="109" parent="globals/Segment34View" pc="268437522" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="110" parent="globals/Segment34View" pc="268437534" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="111" parent="globals/Segment34View" pc="268437542" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="112" parent="globals/Segment34View" pc="268437548" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="113" parent="globals/Segment34View" pc="268437568" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="115" parent="globals/Segment34View" pc="268437583" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="116" parent="globals/Segment34View" pc="268437606" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="117" parent="globals/Segment34View" pc="268437626" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="121" parent="globals/Segment34View" pc="268437648" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="124" parent="globals/Segment34View" pc="268437672" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="21" lineNum="125" parent="globals/Segment34View" pc="268437684" symbol="setHR"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="84" parent="globals/Segment34View" pc="268437697" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="85" parent="globals/Segment34View" pc="268437700" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="86" parent="globals/Segment34View" pc="268437724" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="88" parent="globals/Segment34View" pc="268437748" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="89" parent="globals/Segment34View" pc="268437757" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="90" parent="globals/Segment34View" pc="268437772" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="92" parent="globals/Segment34View" pc="268437788" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="22" lineNum="93" parent="globals/Segment34View" pc="268437803" symbol="setHRIcons"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="209" parent="globals/Segment34View" pc="268437819" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="210" parent="globals/Segment34View" pc="268437822" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="211" parent="globals/Segment34View" pc="268437834" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="212" parent="globals/Segment34View" pc="268437858" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="213" parent="globals/Segment34View" pc="268437882" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="214" parent="globals/Segment34View" pc="268437894" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="215" parent="globals/Segment34View" pc="268437902" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="216" parent="globals/Segment34View" pc="268437908" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="218" parent="globals/Segment34View" pc="268437909" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="219" parent="globals/Segment34View" pc="268437940" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="220" parent="globals/Segment34View" pc="268437971" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="23" lineNum="221" parent="globals/Segment34View" pc="268438000" symbol="setSunUpDown"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="24" lineNum="80" parent="globals/Segment34View" pc="268438030" symbol="onPowerBudgetExceeded"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="24" lineNum="81" parent="globals/Segment34View" pc="268438032" symbol="onPowerBudgetExceeded"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="350" parent="globals/Segment34View" pc="268438051" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="351" parent="globals/Segment34View" pc="268438054" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="352" parent="globals/Segment34View" pc="268438070" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="353" parent="globals/Segment34View" pc="268438086" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="354" parent="globals/Segment34View" pc="268438096" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="355" parent="globals/Segment34View" pc="268438112" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="356" parent="globals/Segment34View" pc="268438120" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="357" parent="globals/Segment34View" pc="268438128" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="358" parent="globals/Segment34View" pc="268438131" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="359" parent="globals/Segment34View" pc="268438152" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="361" parent="globals/Segment34View" pc="268438155" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="364" parent="globals/Segment34View" pc="268438158" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="365" parent="globals/Segment34View" pc="268438165" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="366" parent="globals/Segment34View" pc="268438184" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="367" parent="globals/Segment34View" pc="268438194" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="25" lineNum="370" parent="globals/Segment34View" pc="268438209" symbol="iso_week_number"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="27" lineNum="314" parent="globals/Segment34View" pc="268438212" symbol="onEnterSleep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="27" lineNum="315" parent="globals/Segment34View" pc="268438214" symbol="onEnterSleep"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="234" parent="globals/Segment34View" pc="268438223" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="235" parent="globals/Segment34View" pc="268438226" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="236" parent="globals/Segment34View" pc="268438250" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="237" parent="globals/Segment34View" pc="268438262" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="238" parent="globals/Segment34View" pc="268438279" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="240" parent="globals/Segment34View" pc="268438313" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="28" lineNum="247" parent="globals/Segment34View" pc="268438399" symbol="setDate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="29" lineNum="20" parent="globals/Segment34View" pc="268438412" symbol="initialize"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="29" lineNum="21" parent="globals/Segment34View" pc="268438414" symbol="initialize"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="36" parent="globals/Segment34View" pc="268438427" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="38" parent="globals/Segment34View" pc="268438430" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="39" parent="globals/Segment34View" pc="268438442" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="41" parent="globals/Segment34View" pc="268438460" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="42" parent="globals/Segment34View" pc="268438474" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="43" parent="globals/Segment34View" pc="268438485" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="44" parent="globals/Segment34View" pc="268438496" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="47" parent="globals/Segment34View" pc="268438507" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="48" parent="globals/Segment34View" pc="268438544" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="49" parent="globals/Segment34View" pc="268438564" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="50" parent="globals/Segment34View" pc="268438575" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="51" parent="globals/Segment34View" pc="268438586" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="53" parent="globals/Segment34View" pc="268438587" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="54" parent="globals/Segment34View" pc="268438654" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="55" parent="globals/Segment34View" pc="268438678" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="59" parent="globals/Segment34View" pc="268438690" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="60" parent="globals/Segment34View" pc="268438714" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="62" parent="globals/Segment34View" pc="268438729" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="63" parent="globals/Segment34View" pc="268438740" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="64" parent="globals/Segment34View" pc="268438751" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="65" parent="globals/Segment34View" pc="268438762" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="66" parent="globals/Segment34View" pc="268438773" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="67" parent="globals/Segment34View" pc="268438784" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="68" parent="globals/Segment34View" pc="268438795" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="70" parent="globals/Segment34View" pc="268438806" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="71" parent="globals/Segment34View" pc="268438826" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="72" parent="globals/Segment34View" pc="268438837" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="30" lineNum="74" parent="globals/Segment34View" pc="268438848" symbol="onUpdate"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="279" parent="globals/Segment34View" pc="268438858" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="280" parent="globals/Segment34View" pc="268438861" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="281" parent="globals/Segment34View" pc="268438885" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="282" parent="globals/Segment34View" pc="268438909" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="283" parent="globals/Segment34View" pc="268438933" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="284" parent="globals/Segment34View" pc="268438972" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="285" parent="globals/Segment34View" pc="268438987" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="286" parent="globals/Segment34View" pc="268439002" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="288" parent="globals/Segment34View" pc="268439020" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="289" parent="globals/Segment34View" pc="268439035" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="291" parent="globals/Segment34View" pc="268439050" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="292" parent="globals/Segment34View" pc="268439080" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="295" parent="globals/Segment34View" pc="268439092" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="296" parent="globals/Segment34View" pc="268439116" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="297" parent="globals/Segment34View" pc="268439131" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="298" parent="globals/Segment34View" pc="268439155" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34View.mc" id="31" lineNum="299" parent="globals/Segment34View" pc="268439190" symbol="setTraining"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="33" lineNum="20" parent="globals/Segment34App" pc="268439203" symbol="getInitialView"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="33" lineNum="21" parent="globals/Segment34App" pc="268439205" symbol="getInitialView"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="34" lineNum="7" parent="globals/Segment34App" pc="268439235" symbol="initialize"/>
+        <entry filename="D:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\Segment34App.mc" id="34" lineNum="8" parent="globals/Segment34App" pc="268439237" symbol="initialize"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="34" parent="globals/Rez/Layouts" pc="268439250" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="35" parent="globals/Rez/Layouts" pc="268439261" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="36" parent="globals/Rez/Layouts" pc="268439294" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="37" parent="globals/Rez/Layouts" pc="268439327" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="38" parent="globals/Rez/Layouts" pc="268439360" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="39" parent="globals/Rez/Layouts" pc="268439393" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="40" parent="globals/Rez/Layouts" pc="268439426" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="41" parent="globals/Rez/Layouts" pc="268439459" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="43" parent="globals/Rez/Layouts" pc="268439543" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="45" parent="globals/Rez/Layouts" pc="268439629" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="47" parent="globals/Rez/Layouts" pc="268439712" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="49" parent="globals/Rez/Layouts" pc="268439794" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="51" parent="globals/Rez/Layouts" pc="268439878" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="53" parent="globals/Rez/Layouts" pc="268439961" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="55" parent="globals/Rez/Layouts" pc="268440044" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="57" parent="globals/Rez/Layouts" pc="268440128" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="59" parent="globals/Rez/Layouts" pc="268440212" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="61" parent="globals/Rez/Layouts" pc="268440296" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="63" parent="globals/Rez/Layouts" pc="268440380" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="65" parent="globals/Rez/Layouts" pc="268440461" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="67" parent="globals/Rez/Layouts" pc="268440544" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="69" parent="globals/Rez/Layouts" pc="268440628" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="71" parent="globals/Rez/Layouts" pc="268440711" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="73" parent="globals/Rez/Layouts" pc="268440794" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="75" parent="globals/Rez/Layouts" pc="268440876" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="77" parent="globals/Rez/Layouts" pc="268440959" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="79" parent="globals/Rez/Layouts" pc="268441046" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="81" parent="globals/Rez/Layouts" pc="268441131" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="83" parent="globals/Rez/Layouts" pc="268441213" symbol="WatchFace"/>
+        <entry filename="d:\\RDx\\DevBox\\GARMIN\\Face\\Segment34\\source\\gen\\006-B4124-00\\source\\Rez.mcgen" id="36" lineNum="85" parent="globals/Rez/Layouts" pc="268441299" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="17" method="true" symbol="moon_phase"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="41" symbol="w_partly_cloudy"/>
+        <entry field="true" id="45" symbol="id_led"/>
+        <entry field="true" id="43" symbol="w_snow"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="25" method="true" symbol="setStressAndBodyBattery"/>
+        <entry id="8390098" method="true" symbol="onPowerBudgetExceeded"/>
+        <entry id="13" method="true" symbol="julian_day"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry id="24" method="true" symbol="setStep"/>
+        <entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="40" symbol="w_mostly_cloudy"/>
+        <entry field="true" id="14" symbol="&lt;globals/Segment34View/&lt;&gt;lastCondition&gt;"/>
+        <entry field="true" id="46" symbol="id_moon"/>
+        <entry field="true" id="33" symbol="w_clear"/>
+        <entry id="7" object="true" symbol="Segment34App"/>
+        <entry field="true" id="50" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="34" symbol="w_cloudy"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="28" method="true" symbol="setWeather"/>
+        <entry id="8390097" method="true" symbol="onPartialUpdate"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry id="29" method="true" symbol="setWeatherIcon"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="27" method="true" symbol="setTraining"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="12" method="true" symbol="iso_week_number"/>
+        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="48" symbol="id_smol"/>
+        <entry field="true" id="10" symbol="&lt;globals/Segment34View/&lt;&gt;isSleeping&gt;"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="18" method="true" symbol="setBatt"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="15" symbol="&lt;globals/Segment34View/&lt;&gt;lastUpdate&gt;"/>
+        <entry field="true" id="38" symbol="w_light_rain"/>
+        <entry id="23" method="true" symbol="setNotif"/>
+        <entry field="true" id="49" symbol="id_xsmol"/>
+        <entry field="true" id="32" symbol="sun_up_down"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="36" symbol="w_fog"/>
+        <entry id="21" method="true" symbol="setHRIcons"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="39" symbol="w_light_snow"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="31" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8391847" method="true" symbol="getStressHistory"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="9" method="true" symbol="day_name"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="19" method="true" symbol="setDate"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="11" method="true" symbol="is_leap_year"/>
+        <entry id="26" method="true" symbol="setSunUpDown"/>
+        <entry id="8" object="true" symbol="Segment34View"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="35" symbol="w_default"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry id="16" method="true" symbol="month_name"/>
+        <entry id="30" module="true" symbol="Layouts"/>
+        <entry id="20" method="true" symbol="setHR"/>
+        <entry field="true" id="44" symbol="id_icons"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="42" symbol="w_rain"/>
+        <entry field="true" id="37" symbol="w_heavy_rain"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="22" method="true" symbol="setMoon"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="47" symbol="id_segments80"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435608" name="dc" stackId="1" startPc="268435522"/>
+        <entry endPc="268435607" name="value" stackId="2" startPc="268435525"/>
+        <entry endPc="268435607" name="sample" stackId="3" startPc="268435525"/>
+        <entry endPc="268435607" name="notifLabel" stackId="4" startPc="268435525"/>
+        <entry arg="true" endPc="268435627" name="month" stackId="1" startPc="268435609"/>
+        <entry arg="true" endPc="268435668" name="year" stackId="1" startPc="268435628"/>
+        <entry arg="true" endPc="268435865" name="time" stackId="1" startPc="268435669"/>
+        <entry arg="true" endPc="268436157" name="dc" stackId="1" startPc="268435866"/>
+        <entry endPc="268436156" name="batt" stackId="2" startPc="268435869"/>
+        <entry endPc="268436156" name="stress" stackId="3" startPc="268435869"/>
+        <entry endPc="268436156" name="bbIterator" stackId="4" startPc="268435930"/>
+        <entry endPc="268436156" name="stIterator" stackId="5" startPc="268435930"/>
+        <entry endPc="268436156" name="bb" stackId="6" startPc="268435930"/>
+        <entry endPc="268436156" name="st" stackId="7" startPc="268435930"/>
+        <entry arg="true" endPc="268436259" name="dc" stackId="1" startPc="268436158"/>
+        <entry endPc="268436258" name="value" stackId="2" startPc="268436161"/>
+        <entry endPc="268436258" name="sample" stackId="3" startPc="268436161"/>
+        <entry endPc="268436222" name="i" stackId="4" startPc="268436203"/>
+        <entry endPc="268436258" name="battLabel" stackId="5" startPc="268436161"/>
+        <entry arg="true" endPc="268436340" name="dc" stackId="1" startPc="268436260"/>
+        <entry endPc="268436339" name="now" stackId="2" startPc="268436263"/>
+        <entry endPc="268436339" name="today" stackId="3" startPc="268436263"/>
+        <entry endPc="268436339" name="moonVal" stackId="4" startPc="268436263"/>
+        <entry endPc="268436339" name="moonLabel" stackId="5" startPc="268436263"/>
+        <entry arg="true" endPc="268436981" name="dc" stackId="1" startPc="268436341"/>
+        <entry endPc="268436980" name="icon" stackId="2" startPc="268436344"/>
+        <entry endPc="268436980" name="SunUpDownIcon" stackId="3" startPc="268436344"/>
+        <entry arg="true" endPc="268437064" name="year" stackId="1" startPc="268436982"/>
+        <entry arg="true" endPc="268437064" name="month" stackId="2" startPc="268436982"/>
+        <entry arg="true" endPc="268437064" name="day" stackId="3" startPc="268436982"/>
+        <entry arg="true" endPc="268437083" name="day_of_week" stackId="1" startPc="268437065"/>
+        <entry arg="true" endPc="268437394" name="dc" stackId="1" startPc="268437084"/>
+        <entry endPc="268437393" name="weather" stackId="2" startPc="268437087"/>
+        <entry endPc="268437393" name="temp" stackId="3" startPc="268437087"/>
+        <entry endPc="268437393" name="tempLabel" stackId="4" startPc="268437087"/>
+        <entry endPc="268437393" name="wind" stackId="5" startPc="268437087"/>
+        <entry endPc="268437393" name="windLabel" stackId="6" startPc="268437087"/>
+        <entry endPc="268437393" name="windIcon" stackId="7" startPc="268437087"/>
+        <entry endPc="268437393" name="bearing" stackId="8" startPc="268437087"/>
+        <entry endPc="268437393" name="wc" stackId="9" startPc="268437087"/>
+        <entry endPc="268437393" name="wcVal" stackId="10" startPc="268437087"/>
+        <entry arg="true" endPc="268437464" name="dc" stackId="1" startPc="268437395"/>
+        <entry endPc="268437463" name="stepLabel" stackId="2" startPc="268437398"/>
+        <entry endPc="268437463" name="stepCount" stackId="3" startPc="268437398"/>
+        <entry arg="true" endPc="268437511" name="dc" stackId="1" startPc="268437476"/>
+        <entry arg="true" endPc="268437696" name="dc" stackId="1" startPc="268437512"/>
+        <entry endPc="268437695" name="value" stackId="2" startPc="268437515"/>
+        <entry endPc="268437695" name="activityInfo" stackId="3" startPc="268437515"/>
+        <entry endPc="268437695" name="sample" stackId="4" startPc="268437515"/>
+        <entry endPc="268437695" name="hrLabel" stackId="5" startPc="268437515"/>
+        <entry arg="true" endPc="268437818" name="dc" stackId="1" startPc="268437697"/>
+        <entry endPc="268437817" name="hrIconW" stackId="2" startPc="268437700"/>
+        <entry endPc="268437817" name="hrIconR" stackId="3" startPc="268437700"/>
+        <entry arg="true" endPc="268438029" name="dc" stackId="1" startPc="268437819"/>
+        <entry endPc="268438028" name="weather" stackId="2" startPc="268437822"/>
+        <entry endPc="268438028" name="sunUpLabel" stackId="3" startPc="268437822"/>
+        <entry endPc="268438028" name="sunDownLabel" stackId="4" startPc="268437822"/>
+        <entry endPc="268438028" name="now" stackId="5" startPc="268437822"/>
+        <entry endPc="268438028" name="loc" stackId="6" startPc="268437822"/>
+        <entry endPc="268438028" name="sunrise" stackId="7" startPc="268437822"/>
+        <entry endPc="268438028" name="sunset" stackId="8" startPc="268437822"/>
+        <entry arg="true" endPc="268438211" name="year" stackId="1" startPc="268438051"/>
+        <entry arg="true" endPc="268438211" name="month" stackId="2" startPc="268438051"/>
+        <entry arg="true" endPc="268438211" name="day" stackId="3" startPc="268438051"/>
+        <entry arg="true" endPc="268438411" name="dc" stackId="1" startPc="268438223"/>
+        <entry endPc="268438410" name="dateLabel" stackId="2" startPc="268438226"/>
+        <entry endPc="268438410" name="now" stackId="3" startPc="268438226"/>
+        <entry endPc="268438410" name="today" stackId="4" startPc="268438226"/>
+        <entry endPc="268438410" name="week" stackId="5" startPc="268438226"/>
+        <entry endPc="268438410" name="value" stackId="6" startPc="268438226"/>
+        <entry arg="true" endPc="268438857" name="dc" stackId="1" startPc="268438427"/>
+        <entry endPc="268438856" name="clockTime" stackId="2" startPc="268438430"/>
+        <entry endPc="268438856" name="now" stackId="3" startPc="268438430"/>
+        <entry endPc="268438856" name="timeString" stackId="4" startPc="268438430"/>
+        <entry endPc="268438856" name="timelabel" stackId="5" startPc="268438430"/>
+        <entry endPc="268438856" name="timebg" stackId="6" startPc="268438430"/>
+        <entry arg="true" endPc="268439202" name="dc" stackId="1" startPc="268438858"/>
+        <entry endPc="268439201" name="TTRDesc" stackId="2" startPc="268438861"/>
+        <entry endPc="268439201" name="TTRLabel" stackId="3" startPc="268438861"/>
+        <entry endPc="268439201" name="TTRReady" stackId="4" startPc="268438861"/>
+        <entry endPc="268439091" name="ttr" stackId="5" startPc="268439020"/>
+        <entry endPc="268439201" name="ActiveDesc" stackId="6" startPc="268438861"/>
+        <entry endPc="268439201" name="ActiveLabel" stackId="7" startPc="268438861"/>
+        <entry endPc="268439201" name="active" stackId="8" startPc="268438861"/>
+        <entry arg="true" endPc="268441413" name="dc" stackId="1" startPc="268439250"/>
+    </localVars>
+    <deviceInfo deviceVersion="fcbb2d71ec35a1d3f34d13093a6835d1c69522b8" partNumber="006-B4124-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_moon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_cloudy"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_light_rain"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_segments80"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_partly_cloudy"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_smol"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_fog"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_mostly_cloudy"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_rain"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_icons"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="sun_up_down"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_default"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_clear"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_heavy_rain"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_light_snow"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_xsmol"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="w_snow"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="id_led"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Segment34View" offset="134" parentId="globals" symbolId="Segment34View" type="class"/>
+        <dataEntry label="globals/Rez" offset="439" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Segment34App" offset="501" parentId="globals" symbolId="Segment34App" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="572" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="715" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="750" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="830" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435477" name="getApp" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435489" name="&lt;init&gt;" parent="Segment34View" startPc="268435478">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="Segment34App" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268435608" name="setNotif" parent="Segment34View" startPc="268435522">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268435627" name="month_name" parent="Segment34View" startPc="268435609">
+            <param id="month"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268435668" name="is_leap_year" parent="Segment34View" startPc="268435628">
+            <param id="year"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268435865" name="moon_phase" parent="Segment34View" startPc="268435669">
+            <param id="time"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436157" name="setStressAndBodyBattery" parent="Segment34View" startPc="268435866">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436259" name="setBatt" parent="Segment34View" startPc="268436158">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436340" name="setMoon" parent="Segment34View" startPc="268436260">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436981" name="setWeatherIcon" parent="Segment34View" startPc="268436341">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437064" name="julian_day" parent="Segment34View" startPc="268436982">
+            <param id="year"/>
+            <param id="month"/>
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437083" name="day_name" parent="Segment34View" startPc="268437065">
+            <param id="day_of_week"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437394" name="setWeather" parent="Segment34View" startPc="268437084">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="Segment34View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437464" name="setStep" parent="Segment34View" startPc="268437395">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437475" name="onExitSleep" parent="Segment34View" startPc="268437465">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="Segment34View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437511" name="onLayout" parent="Segment34View" startPc="268437476">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437696" name="setHR" parent="Segment34View" startPc="268437512">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268437818" name="setHRIcons" parent="Segment34View" startPc="268437697">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438029" name="setSunUpDown" parent="Segment34View" startPc="268437819">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438050" name="onPowerBudgetExceeded" parent="Segment34View" startPc="268438030">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438211" name="iso_week_number" parent="Segment34View" startPc="268438051">
+            <param id="year"/>
+            <param id="month"/>
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onPartialUpdate" parent="Segment34View">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438222" name="onEnterSleep" parent="Segment34View" startPc="268438212">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268438411" name="setDate" parent="Segment34View" startPc="268438223">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438426" name="initialize" parent="Segment34View" startPc="268438412">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438857" name="onUpdate" parent="Segment34View" startPc="268438427">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439202" name="setTraining" parent="Segment34View" startPc="268438858">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="Segment34App">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439234" name="getInitialView" parent="Segment34App" startPc="268439203">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439249" name="initialize" parent="Segment34App" startPc="268439235">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="Segment34App">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441413" name="WatchFace" parent="Layouts" startPc="268439250">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
